@@ -1,0 +1,33 @@
+# Mac folder information
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# tox environments
+.tox/
+
+# Unit tests
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*,cover
+
+# mypy reports
+.mypy_cache/
+
+# Sphinx documentation
+docs/_build/
+
+# RPM packages
+*.rpm
