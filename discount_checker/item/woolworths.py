@@ -1,5 +1,6 @@
 import asyncio
 import logging
+import urllib
 from typing import Any, Dict, Optional
 
 import aiohttp
@@ -27,8 +28,17 @@ class WoolworthsItem(Item):
         if self._item_data is None:
             raise ValueError("Item data not present, need to call get_data() first")
 
-        product_name = self._item_data.get("Product", {}).get("Name", None)
-        return product_name
+        product_data = self._item_data.get("Product")
+        if product_data is None:
+            product_data = {}
+
+        product_name = product_data.get("Name", None)
+        product_size = product_data.get("PackageSize", "")
+
+        if product_name is None:
+            return product_name
+
+        return "{} {}".format(product_name, product_size)
 
     @property
     def price(self) -> float:
@@ -37,7 +47,11 @@ class WoolworthsItem(Item):
 
         item_price = 0.0
         try:
-            item_price = float(self._item_data.get("Product", {}).get("WasPrice", 0.0))
+            product_data = self._item_data.get("Product")
+            if product_data is None:
+                product_data = {}
+
+            item_price = float(product_data.get("WasPrice", 0.0))
         except (TypeError, ValueError):
             pass
         return item_price
@@ -49,7 +63,11 @@ class WoolworthsItem(Item):
 
         item_price = 0.0
         try:
-            item_price = float(self._item_data.get("Product", {}).get("Price", 0.0))
+            product_data = self._item_data.get("Product")
+            if product_data is None:
+                product_data = {}
+
+            item_price = float(product_data.get("Price", 0.0))
         except (TypeError, ValueError):
             pass
         return item_price
@@ -60,11 +78,14 @@ class WoolworthsItem(Item):
         if self._item_data is not None:
             return
 
-        item_name_split = self.url.rsplit("/", 2)
-        if len(item_name_split) == 3:
-            item_name_id = item_name_split[1]
+        url_path_split = urllib.parse.urlparse(self.url).path.split("/")
 
-        item_url = "https://woolworths.com.au/apis/ui/product/detail/{}"\
+        if len(url_path_split) < 4:
+            self._item_data = {}
+            return
+
+        item_name_id = url_path_split[3]
+        item_url = "https://www.woolworths.com.au/apis/ui/product/detail/{}"\
                    .format(item_name_id)
 
         async with aiohttp.ClientSession(trust_env=True) as session:

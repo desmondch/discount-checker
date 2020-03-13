@@ -56,8 +56,7 @@ def get_discounts(args: argparse.Namespace, config: DiscountCheckerConfig) -> No
         if args.debug:
             display_target_items(item_set, target)
         else:
-            # TEMPORARY: PASS
-            pass
+            print("")
 
 
 async def get_data_all_items(items: Set[Item]) -> None:

@@ -1,5 +1,6 @@
 import asyncio
 import logging
+import urllib
 from typing import Any, Dict, Optional
 
 import aiohttp
@@ -7,7 +8,8 @@ import aiohttp
 from .item import Item
 
 USER_AGENT = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0"
-COOKIE_LP_RYH = "2d83b953-f79c-986c-d284-76b22b4d91eb"
+COOKIE_KEY = "kl-SDL"
+COOKIE_VALUE = "199fff2f-4995-f234-4ee7-4d6e140a32c3"
 
 
 class ColesItem(Item):
@@ -34,9 +36,12 @@ class ColesItem(Item):
 
         item_entry_view = self._item_data.get("catalogEntryView", [])
         if len(item_entry_view) == 1:
-            item_brand = item_entry_view[0].get("m", "No brand")
-            item_name = item_entry_view[0].get("n", "Item not found")
-            item_name_full = "{} {}".format(item_brand, item_name)
+            item_brand = item_entry_view[0].get("m", "Unknown Brand")
+            item_name = item_entry_view[0].get("n")
+            item_size = item_entry_view[0].get("a", {}).get("O3", [""])[0]
+
+            if item_name is not None:
+                item_name_full = "{} {} {}".format(item_brand, item_name, item_size)
 
         return item_name_full
 
@@ -83,15 +88,17 @@ class ColesItem(Item):
         if self._item_data is not None:
             return
 
-        item_name_split = self.url.rsplit("/", 1)
-        if len(item_name_split) == 2:
-            item_name_url = item_name_split[1]
+        url_path_split = urllib.parse.urlparse(self.url).path.split("/")
+        if len(url_path_split) < 5:
+            self._item_data = {}
+            return
 
+        item_name_url = url_path_split[4]
         item_url = "https://shop.coles.com.au/search/resources/store/20601/"\
                    "productview/bySeoUrlKeyword/{}".format(item_name_url)
 
         headers = {
-            "Cookie": "LP_ryh={}".format(COOKIE_LP_RYH),
+            "Cookie": "{}={}".format(COOKIE_KEY, COOKIE_VALUE),
             "User-Agent": USER_AGENT
         }
 

@@ -1,0 +1,1786 @@
+interactions:
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://www.woolworths.com.au/apis/ui/product/detail/38153
+  response:
+    body:
+      string: "{\"Product\":{\"TileID\":0,\"Stockcode\":38153,\"Barcode\":\"8002560200144\"\
+        ,\"GtinFormat\":13,\"CupPrice\":null,\"InstoreCupPrice\":null,\"CupMeasure\"\
+        :\"1KG\",\"CupString\":\"\",\"InstoreCupString\":\"\",\"HasCupPrice\":false,\"\
+        InstoreHasCupPrice\":false,\"Price\":null,\"InstorePrice\":null,\"Name\":\"\
+        Annalisa Tomatoes Diced\",\"UrlFriendlyName\":\"annalisa-tomatoes-diced\"\
+        ,\"Description\":\" Annalisa Tomatoes Diced 400g\",\"SmallImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/small/038153.jpg\"\
+        ,\"MediumImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/medium/038153.jpg\"\
+        ,\"LargeImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/large/038153.jpg\"\
+        ,\"IsNew\":false,\"IsOnSpecial\":false,\"InstoreIsOnSpecial\":false,\"IsEdrSpecial\"\
+        :false,\"SavingsAmount\":null,\"InstoreSavingsAmount\":null,\"WasPrice\":0,\"\
+        InstoreWasPrice\":0,\"QuantityInTrolley\":0,\"Unit\":\"Each\",\"MinimumQuantity\"\
+        :1,\"HasBeenBoughtBefore\":false,\"IsInTrolley\":false,\"Source\":\"ProductDetail\"\
+        ,\"SupplyLimit\":10,\"IsRanged\":false,\"IsInStock\":true,\"PackageSize\"\
+        :\"400g\",\"IsPmDelivery\":false,\"IsForCollection\":false,\"IsForDelivery\"\
+        :false,\"IsForExpress\":false,\"ProductRestrictionMessage\":null,\"ProductWarningMessage\"\
+        :null,\"CentreTag\":{\"TagContent\":null,\"TagLink\":null,\"FallbackText\"\
+        :null,\"TagType\":\"None\"},\"IsCentreTag\":false,\"ImageTag\":{\"TagContent\"\
+        :null,\"TagLink\":null,\"FallbackText\":\"\",\"TagType\":\"None\"},\"HeaderTag\"\
+        :null,\"HasHeaderTag\":false,\"UnitWeightInGrams\":460,\"SupplyLimitMessage\"\
+        :\"'Annalisa Tomatoes Diced' has a supply limit of 10. The quantity in your\
+        \ cart has been reduced accordingly. To purchase a larger quantity, please\
+        \ contact us on 1800 000 610. Please note we do not supply trade orders.\"\
+        ,\"SmallFormatDescription\":\"Annalisa Tomatoes Diced\",\"FullDescription\"\
+        :\"Annalisa Tomatoes Diced\",\"IsAvailable\":false,\"InstoreIsAvailable\"\
+        :false,\"IsPurchasable\":false,\"InstoreIsPurchasable\":false,\"AgeRestricted\"\
+        :false,\"DisplayQuantity\":1,\"RichDescription\":\"Annalisa Italian Diced\
+        \ Tomatoes\",\"IsDeliveryPass\":false,\"HideWasSavedPrice\":false,\"SapCategories\"\
+        :{\"SapDepartmentName\":\"GROCERIES\",\"SapCategoryName\":\"CANNED VEGETABLES\"\
+        ,\"SapSubCategoryName\":\"CANNED VEGETABLES\",\"SapSegmentName\":\"TOMATOES\
+        \ - PIECES / CRUSHED\"},\"Brand\":\"annalisa\",\"FooterTag\":{\"TagContent\"\
+        :null,\"TagLink\":null,\"FallbackText\":null,\"TagType\":\"None\"},\"IsFooterEnabled\"\
+        :false,\"Diagnostics\":\"0\",\"IsBundle\":false,\"IsInFamily\":false,\"ChildProducts\"\
+        :[],\"UrlOverride\":null,\"AdditionalAttributes\":{\"sapdepartmentname\":\"\
+        GROCERIES\",\"sapdepartmentno\":\"5\",\"sapcategoryname\":\"CANNED VEGETABLES\"\
+        ,\"sapcategoryno\":\"71\",\"sapsubcategoryname\":\"CANNED VEGETABLES\",\"\
+        sapsubcategoryno\":\"827\",\"sapsegmentname\":\"TOMATOES - PIECES / CRUSHED\"\
+        ,\"sapsegmentno\":\"20\",\"specialsgroupid\":null,\"PiesProductDepartmentNodeId\"\
+        :\"1_39FD49C\",\"PiesProductDepartmentsjson\":\"[{\\\"Id\\\":\\\"1_39FD49C\\\
+        \",\\\"Description\\\":\\\"Pantry\\\"}]\",\"piesdepartmentnamesjson\":\"[\\\
+        \"Pantry\\\"]\",\"piescategorynamesjson\":\"[\\\"Canned Food & Instant Meals\\\
+        \"]\",\"piessubcategorynamesjson\":\"[\\\"Canned Tomatoes\\\",\\\"Canned Vegetables\\\
+        \",\\\"Canned Beans & Legumes\\\"]\",\"servingsize-total-nip\":null,\"servingsperpack-total-nip\"\
+        :null,\"microwaveable\":\"False\",\"ovencook\":\"False\",\"vegetarian\":\"\
+        False\",\"freezable\":\"False\",\"containsnuts\":\"False\",\"containsgluten\"\
+        :\"False\",\"description\":\"Annalisa Italian Diced Tomatoes\",\"ingredients\"\
+        :\"Diced tomatoes, tomato juice\",\"nutritionalinformation\":\"{\\\"Name\\\
+        \":\\\"Nutritional Information\\\",\\\"Attributes\\\":[{\\\"Id\\\":705,\\\"\
+        Name\\\":\\\"Carbohydrate Quantity Per 100g - Total - NIP\\\",\\\"Value\\\"\
+        :\\\"3,9g\\\",\\\"Description\\\":\\\"Carbohydrate Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":83},{\\\"Id\\\":706,\\\"Name\\\":\\\"Carbohydrate\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"5,2g\\\",\\\"Description\\\
+        \":\\\"Carbohydrate Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :87},{\\\"Id\\\":759,\\\"Name\\\":\\\"Energy kJ Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"98kJ(23kCal)\\\",\\\"Description\\\":\\\"Energy\
+        \ kJ Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":239},{\\\"Id\\\"\
+        :760,\\\"Name\\\":\\\"Energy kJ Quantity Per Serve - Total - NIP\\\",\\\"\
+        Value\\\":\\\"130kJ\\\",\\\"Description\\\":\\\"Energy kJ Quantity Per Serve\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":243},{\\\"Id\\\":253,\\\"Name\\\":\\\
+        \"Fat Saturated Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"0g\\\
+        \",\\\"Description\\\":\\\"Fat Saturated Quantity Per 100g - Total - NIP\\\
+        \",\\\"SortOrder\\\":251},{\\\"Id\\\":258,\\\"Name\\\":\\\"Fat Saturated Quantity\
+        \ Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"0g\\\",\\\"Description\\\"\
+        :\\\"Fat Saturated Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :255},{\\\"Id\\\":764,\\\"Name\\\":\\\"Fat Total Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"0,1g\\\",\\\"Description\\\":\\\"Fat Total Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":263},{\\\"Id\\\":264,\\\"Name\\\
+        \":\\\"Fat Total Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"0,1g\\\
+        \",\\\"Description\\\":\\\"Fat Total Quantity Per Serve - Total - NIP\\\"\
+        ,\\\"SortOrder\\\":267},{\\\"Id\\\":878,\\\"Name\\\":\\\"Protein Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"1,2g\\\",\\\"Description\\\"\
+        :\\\"Protein Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":587},{\\\
+        \"Id\\\":882,\\\"Name\\\":\\\"Protein Quantity Per Serve - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"1,6g\\\",\\\"Description\\\":\\\"Protein Quantity Per Serve\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":591},{\\\"Id\\\":477,\\\"Name\\\":\\\
+        \"Serving Size - Total - NIP\\\",\\\"Value\\\":\\\"133g\\\",\\\"Description\\\
+        \":\\\"Serving Size - Total - NIP\\\",\\\"SortOrder\\\":607},{\\\"Id\\\":544,\\\
+        \"Name\\\":\\\"Servings Per Pack - Total - NIP\\\",\\\"Value\\\":\\\"3\\\"\
+        ,\\\"Description\\\":\\\"Servings Per Pack - Total - NIP\\\",\\\"SortOrder\\\
+        \":611},{\\\"Id\\\":491,\\\"Name\\\":\\\"Sodium Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"10mg\\\",\\\"Description\\\":\\\"Sodium Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":623},{\\\"Id\\\":495,\\\"Name\\\
+        \":\\\"Sodium Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"13mg\\\
+        \",\\\"Description\\\":\\\"Sodium Quantity Per Serve - Total - NIP\\\",\\\"\
+        SortOrder\\\":627},{\\\"Id\\\":907,\\\"Name\\\":\\\"Sugars Quantity Per 100g\
+        \ - Prefix - NIP\\\",\\\"Value\\\":\\\"\\\",\\\"Description\\\":\\\"Sugars\
+        \ Quantity Per 100g - Prefix - NIP\\\",\\\"SortOrder\\\":645},{\\\"Id\\\"\
+        :908,\\\"Name\\\":\\\"Sugars Quantity Per 100g - SuffixUnits - NIP\\\",\\\"\
+        Value\\\":\\\",9g\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g - SuffixUnits\
+        \ - NIP\\\",\\\"SortOrder\\\":646},{\\\"Id\\\":909,\\\"Name\\\":\\\"Sugars\
+        \ Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"3,9g\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":647},{\\\
+        \"Id\\\":910,\\\"Name\\\":\\\"Sugars Quantity Per 100g - ValueWord - NIP\\\
+        \",\\\"Value\\\":\\\"3\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g\
+        \ - ValueWord - NIP\\\",\\\"SortOrder\\\":648},{\\\"Id\\\":504,\\\"Name\\\"\
+        :\\\"Sugars Quantity Per Serve - Prefix - NIP\\\",\\\"Value\\\":\\\"\\\",\\\
+        \"Description\\\":\\\"Sugars Quantity Per Serve - Prefix - NIP\\\",\\\"SortOrder\\\
+        \":649},{\\\"Id\\\":911,\\\"Name\\\":\\\"Sugars Quantity Per Serve - SuffixUnits\
+        \ - NIP\\\",\\\"Value\\\":\\\",2g\\\",\\\"Description\\\":\\\"Sugars Quantity\
+        \ Per Serve - SuffixUnits - NIP\\\",\\\"SortOrder\\\":650},{\\\"Id\\\":912,\\\
+        \"Name\\\":\\\"Sugars Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\
+        \"5,2g\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve - Total - NIP\\\
+        \",\\\"SortOrder\\\":651},{\\\"Id\\\":572,\\\"Name\\\":\\\"Sugars Quantity\
+        \ Per Serve - ValueWord - NIP\\\",\\\"Value\\\":\\\"5\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per Serve - ValueWord - NIP\\\",\\\"SortOrder\\\":652}]}\"\
+        ,\"storageinstructions\":\"After opening, unused contents to be stored in\
+        \ an airtight container in the fridge and consumed within three days.\",\"\
+        usageinstructions\":null,\"brand\":\"annalisa\",\"manufacturer\":null,\"countryoforigin\"\
+        :null,\"productheightmm\":null,\"productwidthmm\":null,\"productdepthmm\"\
+        :null,\"wool_productpackaging\":null,\"recyclableinformation\":null,\"importantinformation\"\
+        :null,\"allergencontains\":null,\"allergenmaybepresent\":null,\"allergystatement\"\
+        :\"Soy Free\",\"lifestyleanddietarystatement\":\"Low Salt\",\"lifestyleclaim\"\
+        :null,\"wool_dietaryclaim\":null,\"boxedcontents\":null,\"suitablefor\":null,\"\
+        fragrance\":null,\"colour\":null,\"antioxidant\":\"False\",\"addedvitaminsandminerals\"\
+        :\"False\",\"bpafree\":\"False\",\"sulfatefree\":\"False\",\"parabenfree\"\
+        :\"False\",\"claims\":null,\"alcoholfree\":null,\"anti-dandruff\":null,\"\
+        dermatologicallyapproved\":null,\"dermatologistrecommended\":null,\"dermatologisttested\"\
+        :null,\"fragrance-free\":null,\"haircolour\":null,\"hairtype\":null,\"hypo-allergenic\"\
+        :null,\"non-comedogenic\":null,\"oilfree\":null,\"ophthalmologistapproved\"\
+        :null,\"ophthalmologisttested\":null,\"paba-free\":null,\"skincondition\"\
+        :null,\"skintype\":null,\"soap-free\":null,\"spf\":null,\"sweatresistant\"\
+        :null,\"timer\":null,\"waterresistant\":null,\"phbalanced\":null,\"antiseptic\"\
+        :\"False\",\"antibacterial\":\"False\",\"activeconstituents\":null,\"contains\"\
+        :null,\"microwavesafe\":\"False\",\"productimagecount\":\"2\",\"friendlydisclaimer\"\
+        :null,\"productimages\":\"38153.jpg,38153_1.jpg\",\"healthstarrating\":\"\
+        0\",\"tgawarnings\":null,\"tgawarning\":null},\"DetailsImagePaths\":[\"https://cdn0.woolworths.media/content/wowproductimages/large/038153.jpg\"\
+        ,\"https://cdn0.woolworths.media/content/wowproductimages/large/038153_1.jpg\"\
+        ],\"Variety\":\"diced\",\"Rating\":{\"ReviewCount\":0,\"RatingCount\":0,\"\
+        OneStarCount\":0,\"TwoStarCount\":0,\"ThreeStarCount\":0,\"FourStarCount\"\
+        :0,\"FiveStarCount\":0,\"Average\":0,\"OneStarPercentage\":0,\"TwoStarPercentage\"\
+        :0,\"ThreeStarPercentage\":0,\"FourStarPercentage\":0,\"FiveStarPercentage\"\
+        :0},\"IsSponsoredAd\":false,\"AdID\":null,\"AdIndex\":null},\"Nutrition\"\
+        :null,\"VideoUrl\":null,\"PrimaryCategory\":{\"Department\":\"canned & packet\
+        \ food\",\"Aisle\":\"canned tomatoes\",\"VisualShoppingAisleId\":3,\"DisplayOrder\"\
+        :15,\"OverrideName\":null,\"Instance\":\"Alpha\"},\"AdditionalAttributes\"\
+        :{\"sapdepartmentname\":\"GROCERIES\",\"sapdepartmentno\":\"5\",\"sapcategoryname\"\
+        :\"CANNED VEGETABLES\",\"sapcategoryno\":\"71\",\"sapsubcategoryname\":\"\
+        CANNED VEGETABLES\",\"sapsubcategoryno\":\"827\",\"sapsegmentname\":\"TOMATOES\
+        \ - PIECES / CRUSHED\",\"sapsegmentno\":\"20\",\"specialsgroupid\":null,\"\
+        PiesProductDepartmentNodeId\":\"1_39FD49C\",\"PiesProductDepartmentsjson\"\
+        :\"[{\\\"Id\\\":\\\"1_39FD49C\\\",\\\"Description\\\":\\\"Pantry\\\"}]\",\"\
+        piesdepartmentnamesjson\":\"[\\\"Pantry\\\"]\",\"piescategorynamesjson\":\"\
+        [\\\"Canned Food & Instant Meals\\\"]\",\"piessubcategorynamesjson\":\"[\\\
+        \"Canned Tomatoes\\\",\\\"Canned Vegetables\\\",\\\"Canned Beans & Legumes\\\
+        \"]\",\"servingsize-total-nip\":null,\"servingsperpack-total-nip\":null,\"\
+        microwaveable\":\"False\",\"ovencook\":\"False\",\"vegetarian\":\"False\"\
+        ,\"freezable\":\"False\",\"containsnuts\":\"False\",\"containsgluten\":\"\
+        False\",\"description\":\"Annalisa Italian Diced Tomatoes\",\"ingredients\"\
+        :\"Diced tomatoes, tomato juice\",\"nutritionalinformation\":\"{\\\"Name\\\
+        \":\\\"Nutritional Information\\\",\\\"Attributes\\\":[{\\\"Id\\\":705,\\\"\
+        Name\\\":\\\"Carbohydrate Quantity Per 100g - Total - NIP\\\",\\\"Value\\\"\
+        :\\\"3,9g\\\",\\\"Description\\\":\\\"Carbohydrate Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":83},{\\\"Id\\\":706,\\\"Name\\\":\\\"Carbohydrate\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"5,2g\\\",\\\"Description\\\
+        \":\\\"Carbohydrate Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :87},{\\\"Id\\\":759,\\\"Name\\\":\\\"Energy kJ Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"98kJ(23kCal)\\\",\\\"Description\\\":\\\"Energy\
+        \ kJ Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":239},{\\\"Id\\\"\
+        :760,\\\"Name\\\":\\\"Energy kJ Quantity Per Serve - Total - NIP\\\",\\\"\
+        Value\\\":\\\"130kJ\\\",\\\"Description\\\":\\\"Energy kJ Quantity Per Serve\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":243},{\\\"Id\\\":253,\\\"Name\\\":\\\
+        \"Fat Saturated Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"0g\\\
+        \",\\\"Description\\\":\\\"Fat Saturated Quantity Per 100g - Total - NIP\\\
+        \",\\\"SortOrder\\\":251},{\\\"Id\\\":258,\\\"Name\\\":\\\"Fat Saturated Quantity\
+        \ Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"0g\\\",\\\"Description\\\"\
+        :\\\"Fat Saturated Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :255},{\\\"Id\\\":764,\\\"Name\\\":\\\"Fat Total Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"0,1g\\\",\\\"Description\\\":\\\"Fat Total Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":263},{\\\"Id\\\":264,\\\"Name\\\
+        \":\\\"Fat Total Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"0,1g\\\
+        \",\\\"Description\\\":\\\"Fat Total Quantity Per Serve - Total - NIP\\\"\
+        ,\\\"SortOrder\\\":267},{\\\"Id\\\":878,\\\"Name\\\":\\\"Protein Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"1,2g\\\",\\\"Description\\\"\
+        :\\\"Protein Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":587},{\\\
+        \"Id\\\":882,\\\"Name\\\":\\\"Protein Quantity Per Serve - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"1,6g\\\",\\\"Description\\\":\\\"Protein Quantity Per Serve\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":591},{\\\"Id\\\":477,\\\"Name\\\":\\\
+        \"Serving Size - Total - NIP\\\",\\\"Value\\\":\\\"133g\\\",\\\"Description\\\
+        \":\\\"Serving Size - Total - NIP\\\",\\\"SortOrder\\\":607},{\\\"Id\\\":544,\\\
+        \"Name\\\":\\\"Servings Per Pack - Total - NIP\\\",\\\"Value\\\":\\\"3\\\"\
+        ,\\\"Description\\\":\\\"Servings Per Pack - Total - NIP\\\",\\\"SortOrder\\\
+        \":611},{\\\"Id\\\":491,\\\"Name\\\":\\\"Sodium Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"10mg\\\",\\\"Description\\\":\\\"Sodium Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":623},{\\\"Id\\\":495,\\\"Name\\\
+        \":\\\"Sodium Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"13mg\\\
+        \",\\\"Description\\\":\\\"Sodium Quantity Per Serve - Total - NIP\\\",\\\"\
+        SortOrder\\\":627},{\\\"Id\\\":907,\\\"Name\\\":\\\"Sugars Quantity Per 100g\
+        \ - Prefix - NIP\\\",\\\"Value\\\":\\\"\\\",\\\"Description\\\":\\\"Sugars\
+        \ Quantity Per 100g - Prefix - NIP\\\",\\\"SortOrder\\\":645},{\\\"Id\\\"\
+        :908,\\\"Name\\\":\\\"Sugars Quantity Per 100g - SuffixUnits - NIP\\\",\\\"\
+        Value\\\":\\\",9g\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g - SuffixUnits\
+        \ - NIP\\\",\\\"SortOrder\\\":646},{\\\"Id\\\":909,\\\"Name\\\":\\\"Sugars\
+        \ Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"3,9g\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":647},{\\\
+        \"Id\\\":910,\\\"Name\\\":\\\"Sugars Quantity Per 100g - ValueWord - NIP\\\
+        \",\\\"Value\\\":\\\"3\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g\
+        \ - ValueWord - NIP\\\",\\\"SortOrder\\\":648},{\\\"Id\\\":504,\\\"Name\\\"\
+        :\\\"Sugars Quantity Per Serve - Prefix - NIP\\\",\\\"Value\\\":\\\"\\\",\\\
+        \"Description\\\":\\\"Sugars Quantity Per Serve - Prefix - NIP\\\",\\\"SortOrder\\\
+        \":649},{\\\"Id\\\":911,\\\"Name\\\":\\\"Sugars Quantity Per Serve - SuffixUnits\
+        \ - NIP\\\",\\\"Value\\\":\\\",2g\\\",\\\"Description\\\":\\\"Sugars Quantity\
+        \ Per Serve - SuffixUnits - NIP\\\",\\\"SortOrder\\\":650},{\\\"Id\\\":912,\\\
+        \"Name\\\":\\\"Sugars Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\
+        \"5,2g\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve - Total - NIP\\\
+        \",\\\"SortOrder\\\":651},{\\\"Id\\\":572,\\\"Name\\\":\\\"Sugars Quantity\
+        \ Per Serve - ValueWord - NIP\\\",\\\"Value\\\":\\\"5\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per Serve - ValueWord - NIP\\\",\\\"SortOrder\\\":652}]}\"\
+        ,\"storageinstructions\":\"After opening, unused contents to be stored in\
+        \ an airtight container in the fridge and consumed within three days.\",\"\
+        usageinstructions\":null,\"brand\":\"annalisa\",\"manufacturer\":null,\"countryoforigin\"\
+        :null,\"productheightmm\":null,\"productwidthmm\":null,\"productdepthmm\"\
+        :null,\"wool_productpackaging\":null,\"recyclableinformation\":null,\"importantinformation\"\
+        :null,\"allergencontains\":null,\"allergenmaybepresent\":null,\"allergystatement\"\
+        :\"Soy Free\",\"lifestyleanddietarystatement\":\"Low Salt\",\"lifestyleclaim\"\
+        :null,\"wool_dietaryclaim\":null,\"boxedcontents\":null,\"suitablefor\":null,\"\
+        fragrance\":null,\"colour\":null,\"antioxidant\":\"False\",\"addedvitaminsandminerals\"\
+        :\"False\",\"bpafree\":\"False\",\"sulfatefree\":\"False\",\"parabenfree\"\
+        :\"False\",\"claims\":null,\"alcoholfree\":null,\"anti-dandruff\":null,\"\
+        dermatologicallyapproved\":null,\"dermatologistrecommended\":null,\"dermatologisttested\"\
+        :null,\"fragrance-free\":null,\"haircolour\":null,\"hairtype\":null,\"hypo-allergenic\"\
+        :null,\"non-comedogenic\":null,\"oilfree\":null,\"ophthalmologistapproved\"\
+        :null,\"ophthalmologisttested\":null,\"paba-free\":null,\"skincondition\"\
+        :null,\"skintype\":null,\"soap-free\":null,\"spf\":null,\"sweatresistant\"\
+        :null,\"timer\":null,\"waterresistant\":null,\"phbalanced\":null,\"antiseptic\"\
+        :\"False\",\"antibacterial\":\"False\",\"activeconstituents\":null,\"contains\"\
+        :null,\"microwavesafe\":\"False\",\"productimagecount\":\"2\",\"friendlydisclaimer\"\
+        :null,\"productimages\":\"38153.jpg,38153_1.jpg\",\"healthstarrating\":\"\
+        0\",\"tgawarnings\":null,\"tgawarning\":null},\"TgaAttributes\":{\"Directions\"\
+        :null,\"ProductWarnings\":null},\"DetailsImagePaths\":[\"https://cdn0.woolworths.media/content/wowproductimages/large/038153.jpg\"\
+        ,\"https://cdn0.woolworths.media/content/wowproductimages/large/038153_1.jpg\"\
+        ],\"NutritionalInformation\":[{\"Name\":\"Energy\",\"Values\":{\"Avg Qty Per\
+        \ Serving\":\"130kJ\",\"Avg Qty Per 100g\":\"98kJ(23kCal)\"},\"ServingSize\"\
+        :\"133g\",\"ServingsPerPack\":\"3\"},{\"Name\":\"Protein\",\"Values\":{\"\
+        Avg Qty Per Serving\":\"1,6g\",\"Avg Qty Per 100g\":\"1,2g\"},\"ServingSize\"\
+        :\"133g\",\"ServingsPerPack\":\"3\"},{\"Name\":\"Fat, total\",\"Values\":{\"\
+        Avg Qty Per Serving\":\"0,1g\",\"Avg Qty Per 100g\":\"0,1g\"},\"ServingSize\"\
+        :\"133g\",\"ServingsPerPack\":\"3\"},{\"Name\":\"\u2013 saturated\",\"Values\"\
+        :{\"Avg Qty Per Serving\":\"0g\",\"Avg Qty Per 100g\":\"0g\"},\"ServingSize\"\
+        :\"133g\",\"ServingsPerPack\":\"3\"},{\"Name\":\"Carbohydrate\",\"Values\"\
+        :{\"Avg Qty Per Serving\":\"5,2g\",\"Avg Qty Per 100g\":\"3,9g\"},\"ServingSize\"\
+        :\"133g\",\"ServingsPerPack\":\"3\"},{\"Name\":\"\u2013 sugars\",\"Values\"\
+        :{\"Avg Qty Per Serving\":\"5,2g\",\"Avg Qty Per 100g\":\"3,9g\"},\"ServingSize\"\
+        :\"133g\",\"ServingsPerPack\":\"3\"},{\"Name\":\"Sodium\",\"Values\":{\"Avg\
+        \ Qty Per Serving\":\"13mg\",\"Avg Qty Per 100g\":\"10mg\"},\"ServingSize\"\
+        :\"133g\",\"ServingsPerPack\":\"3\"}],\"RichRelevancePlacements\":[{\"placement_name\"\
+        :null,\"message\":null,\"Products\":[],\"Items\":[],\"StockcodesForDiscover\"\
+        :[]}],\"IsTobacco\":false,\"CountryOfOriginLabel\":{\"PngImageFile\":\"https://cdn0.woolworths.media/content/countryoforiginlabelling/8a389008-30c8-4e8e-8c2c-947fc2db03ea.png\"\
+        ,\"SvgImageFile\":\"https://cdn0.woolworths.media/content/countryoforiginlabelling/8a389008-30c8-4e8e-8c2c-947fc2db03ea.svg\"\
+        ,\"AltText\":\"Product of Italy\",\"CountryOfOrigin\":\"Italy\",\"IngredientPercentage\"\
+        :\"\",\"Disclaimer\":null}}"
+    headers:
+      Access-Control-Allow-Headers: Content-type
+      Access-Control-Allow-Origin: '*'
+      Access-Control-Expose-Headers: Request-Context
+      Cache-Control: no-cache, no-store, must-revalidate
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Length: '3699'
+      Content-Type: application/json; charset=utf-8
+      Date: Fri, 13 Mar 2020 04:30:22 GMT
+      Expires: '-1'
+      Pragma: no-cache
+      Request-Context: appId=cid-v1:b49612dc-0eb5-452a-a689-7af50f34384a
+      Server-Timing: origin; dur=44
+      Set-Cookie: akaalb_woolworths.com.au=~op=www_woolworths_com_au_ZoneA:PROD-ZoneA|~rv=16~m=PROD-ZoneA:0|~os=43eb3391333cc20efbd7f812851447e6~id=81960eefddcace94add65af9a2087316;
+        path=/; Secure; SameSite=None
+      Strict-Transport-Security: max-age=600 ; includeSubDomains
+      Vary: Accept-Encoding
+      X-Content-Type-Options: nosniff
+      X-XSS-Protection: 1; mode=block
+    status:
+      code: 200
+      message: OK
+    url: https://www.woolworths.com.au/apis/ui/product/detail/38153
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://www.woolworths.com.au/apis/ui/product/detail/223995
+  response:
+    body:
+      string: "{\"Product\":{\"TileID\":0,\"Stockcode\":223995,\"Barcode\":\"9310140001807\"\
+        ,\"GtinFormat\":13,\"CupPrice\":null,\"InstoreCupPrice\":null,\"CupMeasure\"\
+        :\"100G\",\"CupString\":\"\",\"InstoreCupString\":\"\",\"HasCupPrice\":false,\"\
+        InstoreHasCupPrice\":false,\"Price\":null,\"InstorePrice\":null,\"Name\":\"\
+        Sunrice Jasmine Rice Thai\",\"UrlFriendlyName\":\"sunrice-jasmine-rice-thai\"\
+        ,\"Description\":\" Sunrice Jasmine Rice Thai 5kg\",\"SmallImageFile\":\"\
+        https://cdn0.woolworths.media/content/wowproductimages/small/223995.jpg\"\
+        ,\"MediumImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/medium/223995.jpg\"\
+        ,\"LargeImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/large/223995.jpg\"\
+        ,\"IsNew\":false,\"IsOnSpecial\":false,\"InstoreIsOnSpecial\":false,\"IsEdrSpecial\"\
+        :false,\"SavingsAmount\":null,\"InstoreSavingsAmount\":null,\"WasPrice\":0,\"\
+        InstoreWasPrice\":0,\"QuantityInTrolley\":0,\"Unit\":\"Each\",\"MinimumQuantity\"\
+        :1,\"HasBeenBoughtBefore\":false,\"IsInTrolley\":false,\"Source\":\"ProductDetail\"\
+        ,\"SupplyLimit\":1,\"IsRanged\":false,\"IsInStock\":true,\"PackageSize\":\"\
+        5kg\",\"IsPmDelivery\":false,\"IsForCollection\":false,\"IsForDelivery\":false,\"\
+        IsForExpress\":false,\"ProductRestrictionMessage\":null,\"ProductWarningMessage\"\
+        :null,\"CentreTag\":{\"TagContent\":null,\"TagLink\":null,\"FallbackText\"\
+        :null,\"TagType\":\"None\"},\"IsCentreTag\":false,\"ImageTag\":{\"TagContent\"\
+        :null,\"TagLink\":null,\"FallbackText\":\"\",\"TagType\":\"None\"},\"HeaderTag\"\
+        :null,\"HasHeaderTag\":false,\"UnitWeightInGrams\":5000,\"SupplyLimitMessage\"\
+        :\"'Sunrice Jasmine Rice Thai' has a supply limit of 1. The quantity in your\
+        \ cart has been reduced accordingly. To purchase a larger quantity, please\
+        \ contact us on 1800 000 610. Please note we do not supply trade orders.\"\
+        ,\"SmallFormatDescription\":\"Sunrice Jasmine Rice Thai\",\"FullDescription\"\
+        :\"Sunrice Jasmine Rice Thai\",\"IsAvailable\":false,\"InstoreIsAvailable\"\
+        :false,\"IsPurchasable\":false,\"InstoreIsPurchasable\":false,\"AgeRestricted\"\
+        :false,\"DisplayQuantity\":1,\"RichDescription\":\"<div><strong><em>In order\
+        \ to support as many customers as possible, rice packs of 2kg and above are\
+        \ limited to 1 per order.<br>We apologise for the inconvenience and thank\
+        \ you for your patience.</em></strong></div><br><br><p>SunRice Australian\
+        \ Jasmine Fragrant Rice is delicately aromatic and fluffy. </p><p><span style=\\\
+        \"background-color: transparent;\\\">Long, slender, Fragrant grains define\
+        \ this classic rice variety. When cooked,the grains display a delicate Fragrance.\
+        \ Jasmine is the preferred rice in Southeast Asian cooking.</span><br/></p><p>The\
+        \ heart of Thai cuisine.</p><p>Gluten free.</p>\",\"IsDeliveryPass\":false,\"\
+        HideWasSavedPrice\":false,\"SapCategories\":{\"SapDepartmentName\":\"GROCERIES\"\
+        ,\"SapCategoryName\":\"PASTA / RICE\",\"SapSubCategoryName\":\"RICE\",\"SapSegmentName\"\
+        :\"RICE - JASMINE\"},\"Brand\":\"sunrice\",\"FooterTag\":{\"TagContent\":null,\"\
+        TagLink\":null,\"FallbackText\":null,\"TagType\":\"None\"},\"IsFooterEnabled\"\
+        :false,\"Diagnostics\":\"0\",\"IsBundle\":false,\"IsInFamily\":false,\"ChildProducts\"\
+        :[],\"UrlOverride\":null,\"AdditionalAttributes\":{\"sapdepartmentname\":\"\
+        GROCERIES\",\"sapdepartmentno\":\"5\",\"sapcategoryname\":\"PASTA / RICE\"\
+        ,\"sapcategoryno\":\"59\",\"sapsubcategoryname\":\"RICE\",\"sapsubcategoryno\"\
+        :\"75\",\"sapsegmentname\":\"RICE - JASMINE\",\"sapsegmentno\":\"9\",\"specialsgroupid\"\
+        :null,\"PiesProductDepartmentNodeId\":\"1_39FD49C\",\"PiesProductDepartmentsjson\"\
+        :\"[{\\\"Id\\\":\\\"1_39FD49C\\\",\\\"Description\\\":\\\"Pantry\\\"}]\",\"\
+        piesdepartmentnamesjson\":\"[\\\"Pantry\\\"]\",\"piescategorynamesjson\":\"\
+        [\\\"Pasta, Rice & Grains\\\"]\",\"piessubcategorynamesjson\":\"[\\\"Rice\\\
+        \"]\",\"servingsize-total-nip\":null,\"servingsperpack-total-nip\":null,\"\
+        microwaveable\":\"False\",\"ovencook\":\"False\",\"vegetarian\":\"False\"\
+        ,\"freezable\":\"False\",\"containsnuts\":\"False\",\"containsgluten\":\"\
+        False\",\"description\":\"<div><strong><em>In order to support as many customers\
+        \ as possible, rice packs of 2kg and above are limited to 1 per order.<br>We\
+        \ apologise for the inconvenience and thank you for your patience.</em></strong></div><br><br><p>SunRice\
+        \ Australian Jasmine Fragrant Rice is delicately aromatic and fluffy. </p><p><span\
+        \ style=\\\"background-color: transparent;\\\">Long, slender, Fragrant grains\
+        \ define this classic rice variety. When cooked,the grains display a delicate\
+        \ Fragrance. Jasmine is the preferred rice in Southeast Asian cooking.</span><br/></p><p>The\
+        \ heart of Thai cuisine.</p><p>Gluten free.</p>\",\"ingredients\":\"Australian\
+        \  Milled Jasmine Rice.\",\"nutritionalinformation\":\"{\\\"Name\\\":\\\"\
+        Nutritional Information\\\",\\\"Attributes\\\":[{\\\"Id\\\":705,\\\"Name\\\
+        \":\\\"Carbohydrate Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"\
+        77.0g\\\",\\\"Description\\\":\\\"Carbohydrate Quantity Per 100g - Total -\
+        \ NIP\\\",\\\"SortOrder\\\":83},{\\\"Id\\\":706,\\\"Name\\\":\\\"Carbohydrate\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"53.9g\\\",\\\"Description\\\
+        \":\\\"Carbohydrate Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :87},{\\\"Id\\\":759,\\\"Name\\\":\\\"Energy kJ Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"1490kJ\\\",\\\"Description\\\":\\\"Energy kJ\
+        \ Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":239},{\\\"Id\\\":760,\\\
+        \"Name\\\":\\\"Energy kJ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\"\
+        :\\\"1040kJ\\\",\\\"Description\\\":\\\"Energy kJ Quantity Per Serve - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":243},{\\\"Id\\\":253,\\\"Name\\\":\\\"Fat Saturated\
+        \ Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\
+        \":\\\"Fat Saturated Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\"\
+        :251},{\\\"Id\\\":258,\\\"Name\\\":\\\"Fat Saturated Quantity Per Serve -\
+        \ Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Fat Saturated\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":255},{\\\"Id\\\"\
+        :764,\\\"Name\\\":\\\"Fat Total Quantity Per 100g - Total - NIP\\\",\\\"Value\\\
+        \":\\\"1.0g\\\",\\\"Description\\\":\\\"Fat Total Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":263},{\\\"Id\\\":264,\\\"Name\\\":\\\"Fat Total\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\
+        \":\\\"Fat Total Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":267},{\\\
+        \"Id\\\":878,\\\"Name\\\":\\\"Protein Quantity Per 100g - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"7.8g\\\",\\\"Description\\\":\\\"Protein Quantity Per 100g\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":587},{\\\"Id\\\":882,\\\"Name\\\":\\\
+        \"Protein Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"5.5g\\\"\
+        ,\\\"Description\\\":\\\"Protein Quantity Per Serve - Total - NIP\\\",\\\"\
+        SortOrder\\\":591},{\\\"Id\\\":477,\\\"Name\\\":\\\"Serving Size - Total -\
+        \ NIP\\\",\\\"Value\\\":\\\"70g (Approximately 1/3 metric cup uncooked rice)\\\
+        \",\\\"Description\\\":\\\"Serving Size - Total - NIP\\\",\\\"SortOrder\\\"\
+        :607},{\\\"Id\\\":544,\\\"Name\\\":\\\"Servings Per Pack - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"about71\\\",\\\"Description\\\":\\\"Servings Per Pack -\
+        \ Total - NIP\\\",\\\"SortOrder\\\":611},{\\\"Id\\\":491,\\\"Name\\\":\\\"\
+        Sodium Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"<5mg\\\",\\\"\
+        Description\\\":\\\"Sodium Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\
+        \":623},{\\\"Id\\\":495,\\\"Name\\\":\\\"Sodium Quantity Per Serve - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"<5mg\\\",\\\"Description\\\":\\\"Sodium Quantity\
+        \ Per Serve - Total - NIP\\\",\\\"SortOrder\\\":627},{\\\"Id\\\":907,\\\"\
+        Name\\\":\\\"Sugars Quantity Per 100g - Prefix - NIP\\\",\\\"Value\\\":\\\"\
+        <\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g - Prefix - NIP\\\"\
+        ,\\\"SortOrder\\\":645},{\\\"Id\\\":908,\\\"Name\\\":\\\"Sugars Quantity Per\
+        \ 100g - SuffixUnits - NIP\\\",\\\"Value\\\":\\\"g\\\",\\\"Description\\\"\
+        :\\\"Sugars Quantity Per 100g - SuffixUnits - NIP\\\",\\\"SortOrder\\\":646},{\\\
+        \"Id\\\":909,\\\"Name\\\":\\\"Sugars Quantity Per 100g - Total - NIP\\\",\\\
+        \"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g -\
+        \ Total - NIP\\\",\\\"SortOrder\\\":647},{\\\"Id\\\":910,\\\"Name\\\":\\\"\
+        Sugars Quantity Per 100g - ValueWord - NIP\\\",\\\"Value\\\":\\\"1\\\",\\\"\
+        Description\\\":\\\"Sugars Quantity Per 100g - ValueWord - NIP\\\",\\\"SortOrder\\\
+        \":648},{\\\"Id\\\":504,\\\"Name\\\":\\\"Sugars Quantity Per Serve - Prefix\
+        \ - NIP\\\",\\\"Value\\\":\\\"<\\\",\\\"Description\\\":\\\"Sugars Quantity\
+        \ Per Serve - Prefix - NIP\\\",\\\"SortOrder\\\":649},{\\\"Id\\\":911,\\\"\
+        Name\\\":\\\"Sugars Quantity Per Serve - SuffixUnits - NIP\\\",\\\"Value\\\
+        \":\\\"g\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve - SuffixUnits\
+        \ - NIP\\\",\\\"SortOrder\\\":650},{\\\"Id\\\":912,\\\"Name\\\":\\\"Sugars\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":651},{\\\
+        \"Id\\\":572,\\\"Name\\\":\\\"Sugars Quantity Per Serve - ValueWord - NIP\\\
+        \",\\\"Value\\\":\\\"1\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve\
+        \ - ValueWord - NIP\\\",\\\"SortOrder\\\":652}]}\",\"storageinstructions\"\
+        :\"Store in a cool dry place out of sunlight.\",\"usageinstructions\":null,\"\
+        brand\":\"sunrice\",\"manufacturer\":null,\"countryoforigin\":null,\"productheightmm\"\
+        :null,\"productwidthmm\":null,\"productdepthmm\":null,\"wool_productpackaging\"\
+        :null,\"recyclableinformation\":null,\"importantinformation\":null,\"allergencontains\"\
+        :null,\"allergenmaybepresent\":null,\"allergystatement\":\"Lactose Free\"\
+        ,\"lifestyleanddietarystatement\":\"Vegan\",\"lifestyleclaim\":null,\"wool_dietaryclaim\"\
+        :\"Low in Salt, Low Fat\",\"boxedcontents\":null,\"suitablefor\":null,\"fragrance\"\
+        :null,\"colour\":null,\"antioxidant\":\"False\",\"addedvitaminsandminerals\"\
+        :\"False\",\"bpafree\":\"False\",\"sulfatefree\":\"False\",\"parabenfree\"\
+        :\"False\",\"claims\":null,\"alcoholfree\":null,\"anti-dandruff\":null,\"\
+        dermatologicallyapproved\":null,\"dermatologistrecommended\":null,\"dermatologisttested\"\
+        :null,\"fragrance-free\":null,\"haircolour\":null,\"hairtype\":null,\"hypo-allergenic\"\
+        :null,\"non-comedogenic\":null,\"oilfree\":null,\"ophthalmologistapproved\"\
+        :null,\"ophthalmologisttested\":null,\"paba-free\":null,\"skincondition\"\
+        :null,\"skintype\":null,\"soap-free\":null,\"spf\":null,\"sweatresistant\"\
+        :null,\"timer\":null,\"waterresistant\":null,\"phbalanced\":null,\"antiseptic\"\
+        :\"False\",\"antibacterial\":\"False\",\"activeconstituents\":null,\"contains\"\
+        :null,\"microwavesafe\":\"False\",\"productimagecount\":\"2\",\"friendlydisclaimer\"\
+        :null,\"productimages\":\"223995.jpg,223995_2.jpg\",\"healthstarrating\":\"\
+        0\",\"tgawarnings\":null,\"tgawarning\":null},\"DetailsImagePaths\":[\"https://cdn0.woolworths.media/content/wowproductimages/large/223995.jpg\"\
+        ,\"https://cdn0.woolworths.media/content/wowproductimages/large/223995_2.jpg\"\
+        ],\"Variety\":\"thai\",\"Rating\":{\"ReviewCount\":0,\"RatingCount\":0,\"\
+        OneStarCount\":0,\"TwoStarCount\":0,\"ThreeStarCount\":0,\"FourStarCount\"\
+        :0,\"FiveStarCount\":0,\"Average\":0,\"OneStarPercentage\":0,\"TwoStarPercentage\"\
+        :0,\"ThreeStarPercentage\":0,\"FourStarPercentage\":0,\"FiveStarPercentage\"\
+        :0},\"IsSponsoredAd\":false,\"AdID\":null,\"AdIndex\":null},\"Nutrition\"\
+        :null,\"VideoUrl\":null,\"PrimaryCategory\":{\"Department\":\"rice, noodles\
+        \ & pasta\",\"Aisle\":\"rice\",\"VisualShoppingAisleId\":3,\"DisplayOrder\"\
+        :41,\"OverrideName\":null,\"Instance\":\"Alpha\"},\"AdditionalAttributes\"\
+        :{\"sapdepartmentname\":\"GROCERIES\",\"sapdepartmentno\":\"5\",\"sapcategoryname\"\
+        :\"PASTA / RICE\",\"sapcategoryno\":\"59\",\"sapsubcategoryname\":\"RICE\"\
+        ,\"sapsubcategoryno\":\"75\",\"sapsegmentname\":\"RICE - JASMINE\",\"sapsegmentno\"\
+        :\"9\",\"specialsgroupid\":null,\"PiesProductDepartmentNodeId\":\"1_39FD49C\"\
+        ,\"PiesProductDepartmentsjson\":\"[{\\\"Id\\\":\\\"1_39FD49C\\\",\\\"Description\\\
+        \":\\\"Pantry\\\"}]\",\"piesdepartmentnamesjson\":\"[\\\"Pantry\\\"]\",\"\
+        piescategorynamesjson\":\"[\\\"Pasta, Rice & Grains\\\"]\",\"piessubcategorynamesjson\"\
+        :\"[\\\"Rice\\\"]\",\"servingsize-total-nip\":null,\"servingsperpack-total-nip\"\
+        :null,\"microwaveable\":\"False\",\"ovencook\":\"False\",\"vegetarian\":\"\
+        False\",\"freezable\":\"False\",\"containsnuts\":\"False\",\"containsgluten\"\
+        :\"False\",\"description\":\"<div><strong><em>In order to support as many\
+        \ customers as possible, rice packs of 2kg and above are limited to 1 per\
+        \ order.<br>We apologise for the inconvenience and thank you for your patience.</em></strong></div><br><br><p>SunRice\
+        \ Australian Jasmine Fragrant Rice is delicately aromatic and fluffy. </p><p><span\
+        \ style=\\\"background-color: transparent;\\\">Long, slender, Fragrant grains\
+        \ define this classic rice variety. When cooked,the grains display a delicate\
+        \ Fragrance. Jasmine is the preferred rice in Southeast Asian cooking.</span><br/></p><p>The\
+        \ heart of Thai cuisine.</p><p>Gluten free.</p>\",\"ingredients\":\"Australian\
+        \  Milled Jasmine Rice.\",\"nutritionalinformation\":\"{\\\"Name\\\":\\\"\
+        Nutritional Information\\\",\\\"Attributes\\\":[{\\\"Id\\\":705,\\\"Name\\\
+        \":\\\"Carbohydrate Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"\
+        77.0g\\\",\\\"Description\\\":\\\"Carbohydrate Quantity Per 100g - Total -\
+        \ NIP\\\",\\\"SortOrder\\\":83},{\\\"Id\\\":706,\\\"Name\\\":\\\"Carbohydrate\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"53.9g\\\",\\\"Description\\\
+        \":\\\"Carbohydrate Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :87},{\\\"Id\\\":759,\\\"Name\\\":\\\"Energy kJ Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"1490kJ\\\",\\\"Description\\\":\\\"Energy kJ\
+        \ Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":239},{\\\"Id\\\":760,\\\
+        \"Name\\\":\\\"Energy kJ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\"\
+        :\\\"1040kJ\\\",\\\"Description\\\":\\\"Energy kJ Quantity Per Serve - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":243},{\\\"Id\\\":253,\\\"Name\\\":\\\"Fat Saturated\
+        \ Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\
+        \":\\\"Fat Saturated Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\"\
+        :251},{\\\"Id\\\":258,\\\"Name\\\":\\\"Fat Saturated Quantity Per Serve -\
+        \ Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Fat Saturated\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":255},{\\\"Id\\\"\
+        :764,\\\"Name\\\":\\\"Fat Total Quantity Per 100g - Total - NIP\\\",\\\"Value\\\
+        \":\\\"1.0g\\\",\\\"Description\\\":\\\"Fat Total Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":263},{\\\"Id\\\":264,\\\"Name\\\":\\\"Fat Total\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\
+        \":\\\"Fat Total Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":267},{\\\
+        \"Id\\\":878,\\\"Name\\\":\\\"Protein Quantity Per 100g - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"7.8g\\\",\\\"Description\\\":\\\"Protein Quantity Per 100g\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":587},{\\\"Id\\\":882,\\\"Name\\\":\\\
+        \"Protein Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"5.5g\\\"\
+        ,\\\"Description\\\":\\\"Protein Quantity Per Serve - Total - NIP\\\",\\\"\
+        SortOrder\\\":591},{\\\"Id\\\":477,\\\"Name\\\":\\\"Serving Size - Total -\
+        \ NIP\\\",\\\"Value\\\":\\\"70g (Approximately 1/3 metric cup uncooked rice)\\\
+        \",\\\"Description\\\":\\\"Serving Size - Total - NIP\\\",\\\"SortOrder\\\"\
+        :607},{\\\"Id\\\":544,\\\"Name\\\":\\\"Servings Per Pack - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"about71\\\",\\\"Description\\\":\\\"Servings Per Pack -\
+        \ Total - NIP\\\",\\\"SortOrder\\\":611},{\\\"Id\\\":491,\\\"Name\\\":\\\"\
+        Sodium Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"<5mg\\\",\\\"\
+        Description\\\":\\\"Sodium Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\
+        \":623},{\\\"Id\\\":495,\\\"Name\\\":\\\"Sodium Quantity Per Serve - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"<5mg\\\",\\\"Description\\\":\\\"Sodium Quantity\
+        \ Per Serve - Total - NIP\\\",\\\"SortOrder\\\":627},{\\\"Id\\\":907,\\\"\
+        Name\\\":\\\"Sugars Quantity Per 100g - Prefix - NIP\\\",\\\"Value\\\":\\\"\
+        <\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g - Prefix - NIP\\\"\
+        ,\\\"SortOrder\\\":645},{\\\"Id\\\":908,\\\"Name\\\":\\\"Sugars Quantity Per\
+        \ 100g - SuffixUnits - NIP\\\",\\\"Value\\\":\\\"g\\\",\\\"Description\\\"\
+        :\\\"Sugars Quantity Per 100g - SuffixUnits - NIP\\\",\\\"SortOrder\\\":646},{\\\
+        \"Id\\\":909,\\\"Name\\\":\\\"Sugars Quantity Per 100g - Total - NIP\\\",\\\
+        \"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g -\
+        \ Total - NIP\\\",\\\"SortOrder\\\":647},{\\\"Id\\\":910,\\\"Name\\\":\\\"\
+        Sugars Quantity Per 100g - ValueWord - NIP\\\",\\\"Value\\\":\\\"1\\\",\\\"\
+        Description\\\":\\\"Sugars Quantity Per 100g - ValueWord - NIP\\\",\\\"SortOrder\\\
+        \":648},{\\\"Id\\\":504,\\\"Name\\\":\\\"Sugars Quantity Per Serve - Prefix\
+        \ - NIP\\\",\\\"Value\\\":\\\"<\\\",\\\"Description\\\":\\\"Sugars Quantity\
+        \ Per Serve - Prefix - NIP\\\",\\\"SortOrder\\\":649},{\\\"Id\\\":911,\\\"\
+        Name\\\":\\\"Sugars Quantity Per Serve - SuffixUnits - NIP\\\",\\\"Value\\\
+        \":\\\"g\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve - SuffixUnits\
+        \ - NIP\\\",\\\"SortOrder\\\":650},{\\\"Id\\\":912,\\\"Name\\\":\\\"Sugars\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":651},{\\\
+        \"Id\\\":572,\\\"Name\\\":\\\"Sugars Quantity Per Serve - ValueWord - NIP\\\
+        \",\\\"Value\\\":\\\"1\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve\
+        \ - ValueWord - NIP\\\",\\\"SortOrder\\\":652}]}\",\"storageinstructions\"\
+        :\"Store in a cool dry place out of sunlight.\",\"usageinstructions\":null,\"\
+        brand\":\"sunrice\",\"manufacturer\":null,\"countryoforigin\":null,\"productheightmm\"\
+        :null,\"productwidthmm\":null,\"productdepthmm\":null,\"wool_productpackaging\"\
+        :null,\"recyclableinformation\":null,\"importantinformation\":null,\"allergencontains\"\
+        :null,\"allergenmaybepresent\":null,\"allergystatement\":\"Lactose Free\"\
+        ,\"lifestyleanddietarystatement\":\"Vegan\",\"lifestyleclaim\":null,\"wool_dietaryclaim\"\
+        :\"Low in Salt, Low Fat\",\"boxedcontents\":null,\"suitablefor\":null,\"fragrance\"\
+        :null,\"colour\":null,\"antioxidant\":\"False\",\"addedvitaminsandminerals\"\
+        :\"False\",\"bpafree\":\"False\",\"sulfatefree\":\"False\",\"parabenfree\"\
+        :\"False\",\"claims\":null,\"alcoholfree\":null,\"anti-dandruff\":null,\"\
+        dermatologicallyapproved\":null,\"dermatologistrecommended\":null,\"dermatologisttested\"\
+        :null,\"fragrance-free\":null,\"haircolour\":null,\"hairtype\":null,\"hypo-allergenic\"\
+        :null,\"non-comedogenic\":null,\"oilfree\":null,\"ophthalmologistapproved\"\
+        :null,\"ophthalmologisttested\":null,\"paba-free\":null,\"skincondition\"\
+        :null,\"skintype\":null,\"soap-free\":null,\"spf\":null,\"sweatresistant\"\
+        :null,\"timer\":null,\"waterresistant\":null,\"phbalanced\":null,\"antiseptic\"\
+        :\"False\",\"antibacterial\":\"False\",\"activeconstituents\":null,\"contains\"\
+        :null,\"microwavesafe\":\"False\",\"productimagecount\":\"2\",\"friendlydisclaimer\"\
+        :null,\"productimages\":\"223995.jpg,223995_2.jpg\",\"healthstarrating\":\"\
+        0\",\"tgawarnings\":null,\"tgawarning\":null},\"TgaAttributes\":{\"Directions\"\
+        :null,\"ProductWarnings\":null},\"DetailsImagePaths\":[\"https://cdn0.woolworths.media/content/wowproductimages/large/223995.jpg\"\
+        ,\"https://cdn0.woolworths.media/content/wowproductimages/large/223995_2.jpg\"\
+        ],\"NutritionalInformation\":[{\"Name\":\"Energy\",\"Values\":{\"Avg Qty Per\
+        \ Serving\":\"1040kJ\",\"Avg Qty Per 100g\":\"1490kJ\"},\"ServingSize\":\"\
+        70g (Approximately 1/3 metric cup uncooked rice)\",\"ServingsPerPack\":\"\
+        about71\"},{\"Name\":\"Protein\",\"Values\":{\"Avg Qty Per Serving\":\"5.5g\"\
+        ,\"Avg Qty Per 100g\":\"7.8g\"},\"ServingSize\":\"70g (Approximately 1/3 metric\
+        \ cup uncooked rice)\",\"ServingsPerPack\":\"about71\"},{\"Name\":\"Fat, total\"\
+        ,\"Values\":{\"Avg Qty Per Serving\":\"<1g\",\"Avg Qty Per 100g\":\"1.0g\"\
+        },\"ServingSize\":\"70g (Approximately 1/3 metric cup uncooked rice)\",\"\
+        ServingsPerPack\":\"about71\"},{\"Name\":\"\u2013 saturated\",\"Values\":{\"\
+        Avg Qty Per Serving\":\"<1g\",\"Avg Qty Per 100g\":\"<1g\"},\"ServingSize\"\
+        :\"70g (Approximately 1/3 metric cup uncooked rice)\",\"ServingsPerPack\"\
+        :\"about71\"},{\"Name\":\"Carbohydrate\",\"Values\":{\"Avg Qty Per Serving\"\
+        :\"53.9g\",\"Avg Qty Per 100g\":\"77.0g\"},\"ServingSize\":\"70g (Approximately\
+        \ 1/3 metric cup uncooked rice)\",\"ServingsPerPack\":\"about71\"},{\"Name\"\
+        :\"\u2013 sugars\",\"Values\":{\"Avg Qty Per Serving\":\"<1g\",\"Avg Qty Per\
+        \ 100g\":\"<1g\"},\"ServingSize\":\"70g (Approximately 1/3 metric cup uncooked\
+        \ rice)\",\"ServingsPerPack\":\"about71\"},{\"Name\":\"Sodium\",\"Values\"\
+        :{\"Avg Qty Per Serving\":\"<5mg\",\"Avg Qty Per 100g\":\"<5mg\"},\"ServingSize\"\
+        :\"70g (Approximately 1/3 metric cup uncooked rice)\",\"ServingsPerPack\"\
+        :\"about71\"}],\"RichRelevancePlacements\":[{\"placement_name\":null,\"message\"\
+        :null,\"Products\":[],\"Items\":[],\"StockcodesForDiscover\":[]}],\"IsTobacco\"\
+        :false,\"CountryOfOriginLabel\":{\"PngImageFile\":\"https://cdn0.woolworths.media/content/countryoforiginlabelling/b30db8e7-2a70-43c8-8115-b2d6e0805210.png\"\
+        ,\"SvgImageFile\":\"https://cdn0.woolworths.media/content/countryoforiginlabelling/b30db8e7-2a70-43c8-8115-b2d6e0805210.svg\"\
+        ,\"AltText\":\"Grown in Australia\",\"CountryOfOrigin\":\"Australia\",\"IngredientPercentage\"\
+        :\"100\",\"Disclaimer\":null}}"
+    headers:
+      Access-Control-Allow-Headers: Content-type
+      Access-Control-Allow-Origin: '*'
+      Access-Control-Expose-Headers: Request-Context
+      Cache-Control: no-cache, no-store, must-revalidate
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Length: '4160'
+      Content-Type: application/json; charset=utf-8
+      Date: Fri, 13 Mar 2020 04:30:22 GMT
+      Expires: '-1'
+      Pragma: no-cache
+      Request-Context: appId=cid-v1:b49612dc-0eb5-452a-a689-7af50f34384a
+      Server-Timing: origin; dur=81
+      Set-Cookie: akaalb_woolworths.com.au=~op=www_woolworths_com_au_ZoneA:PROD-ZoneA|~rv=91~m=PROD-ZoneA:0|~os=43eb3391333cc20efbd7f812851447e6~id=cc3f6f2b6b5e7fe5ed018d04b5598000;
+        path=/; Secure; SameSite=None
+      Strict-Transport-Security: max-age=600 ; includeSubDomains
+      Vary: Accept-Encoding
+      X-Content-Type-Options: nosniff
+      X-XSS-Protection: 1; mode=block
+    status:
+      code: 200
+      message: OK
+    url: https://www.woolworths.com.au/apis/ui/product/detail/223995
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://www.woolworths.com.au/apis/ui/product/detail/761072
+  response:
+    body:
+      string: "{\"Product\":{\"TileID\":0,\"Stockcode\":761072,\"Barcode\":\"9332991001362\"\
+        ,\"GtinFormat\":13,\"CupPrice\":null,\"InstoreCupPrice\":null,\"CupMeasure\"\
+        :\"1L\",\"CupString\":\"\",\"InstoreCupString\":\"\",\"HasCupPrice\":false,\"\
+        InstoreHasCupPrice\":false,\"Price\":null,\"InstorePrice\":null,\"Name\":\"\
+        Nudie Nothing But Coconut Water Straight Up\",\"UrlFriendlyName\":\"nudie-nothing-but-coconut-water-straight-up\"\
+        ,\"Description\":\" Nudie Nothing But Coconut<br>Water Straight Up 1l\",\"\
+        SmallImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/small/761072.jpg\"\
+        ,\"MediumImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/medium/761072.jpg\"\
+        ,\"LargeImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/large/761072.jpg\"\
+        ,\"IsNew\":false,\"IsOnSpecial\":false,\"InstoreIsOnSpecial\":false,\"IsEdrSpecial\"\
+        :false,\"SavingsAmount\":null,\"InstoreSavingsAmount\":null,\"WasPrice\":0,\"\
+        InstoreWasPrice\":0,\"QuantityInTrolley\":0,\"Unit\":\"Each\",\"MinimumQuantity\"\
+        :1,\"HasBeenBoughtBefore\":false,\"IsInTrolley\":false,\"Source\":\"ProductDetail\"\
+        ,\"SupplyLimit\":36,\"IsRanged\":false,\"IsInStock\":true,\"PackageSize\"\
+        :\"1l\",\"IsPmDelivery\":false,\"IsForCollection\":false,\"IsForDelivery\"\
+        :false,\"IsForExpress\":false,\"ProductRestrictionMessage\":null,\"ProductWarningMessage\"\
+        :null,\"CentreTag\":{\"TagContent\":\"<span style=\\\"COLOR: #e2001a\\\">\
+        \ Was $5.00 03/12/2018</span>\",\"TagLink\":null,\"FallbackText\":null,\"\
+        TagType\":\"Html\"},\"IsCentreTag\":true,\"ImageTag\":{\"TagContent\":null,\"\
+        TagLink\":null,\"FallbackText\":\"\",\"TagType\":\"None\"},\"HeaderTag\":{\"\
+        BackgroundColor\":\"#fff\",\"BorderColor\":\"#c20016\",\"TextColor\":\"#c20016\"\
+        ,\"Content\":\"<span class=\\\"u-semibold\\\">Prices dropped</span>\",\"TagLink\"\
+        :null,\"Promotion\":\"PriceDropped\"},\"HasHeaderTag\":true,\"UnitWeightInGrams\"\
+        :1000,\"SupplyLimitMessage\":\"'Nudie Nothing But Coconut Water Straight Up'\
+        \ has a supply limit of 36. The quantity in your cart has been reduced accordingly.\
+        \ To purchase a larger quantity, please contact us on 1800 000 610. Please\
+        \ note we do not supply trade orders.\",\"SmallFormatDescription\":\"Nudie\
+        \ Nothing But Coconut Water Straight Up\",\"FullDescription\":\"Nudie Nothing\
+        \ But Coconut Water Straight Up\",\"IsAvailable\":false,\"InstoreIsAvailable\"\
+        :false,\"IsPurchasable\":false,\"InstoreIsPurchasable\":false,\"AgeRestricted\"\
+        :false,\"DisplayQuantity\":1,\"RichDescription\":\"One day, the Nudie fruit\
+        \ (especially the wild outdoorsy types) decided to sail into the sunset and\
+        \ seek out exotic, undiscovered fruit to invite home. After many hair-raising\
+        \ adventures (for the kiwi fruit at least) they finally met a tribe of young,\
+        \ green coconuts who, unlike their brown elders, made 100% pure, hydrating,\
+        \ all-natural, thirst-quenching coconut water! \\\"Perfect!\\\" said the fruit.\
+        \ \\\"It sure is!\\\" said the coconuts. Ah, love at first sight.\\n\\nA slurpable\
+        \ supply of potassium (an essential electrolyte).\",\"IsDeliveryPass\":false,\"\
+        HideWasSavedPrice\":false,\"SapCategories\":{\"SapDepartmentName\":\"FRESH\
+        \ CONVENIENCE\",\"SapCategoryName\":\"DAIRY - CHILLED JUICES & DRINKS\",\"\
+        SapSubCategoryName\":\"DAIRY - CHILLED JUICES & DRINKS\",\"SapSegmentName\"\
+        :\"PREMIUM JUICE\"},\"Brand\":\"nudie\",\"FooterTag\":{\"TagContent\":\"<div\
+        \ class=\\\"productTag-pricedropped\\\" style=\\\"\\r\\nheight:46px;\\r\\\
+        nposition:absolute;\\r\\ntop:-4px;\\r\\nleft:0;\\r\\nwidth:100%;\\r\\nbackground:white;\\\
+        r\\noutline: 1px solid #c20016;\\r\\ntext-align:center;\\\">\\r\\n\\r\\n<img\
+        \ src=\\\"https://cdn0.woolworths.media/content/content/pricedropped-footer-transparent.png\\\
+        \" width=\\\"204px\\\" height=\\\"16px\\\" alt=\\\"Price Dropped\\\" style=\\\
+        \"display:inline-block;margin-top:15px;max-width: 100%;\\\">\\r\\n</div>\"\
+        ,\"TagLink\":null,\"FallbackText\":null,\"TagType\":\"Html\"},\"IsFooterEnabled\"\
+        :true,\"Diagnostics\":\"0\",\"IsBundle\":false,\"IsInFamily\":false,\"ChildProducts\"\
+        :[],\"UrlOverride\":null,\"AdditionalAttributes\":{\"sapdepartmentname\":\"\
+        FRESH CONVENIENCE\",\"sapdepartmentno\":\"10\",\"sapcategoryname\":\"DAIRY\
+        \ - CHILLED JUICES & DRINKS\",\"sapcategoryno\":\"92\",\"sapsubcategoryname\"\
+        :\"DAIRY - CHILLED JUICES & DRINKS\",\"sapsubcategoryno\":\"918\",\"sapsegmentname\"\
+        :\"PREMIUM JUICE\",\"sapsegmentno\":\"8\",\"specialsgroupid\":null,\"PiesProductDepartmentNodeId\"\
+        :\"1_5AF3A0A\",\"PiesProductDepartmentsjson\":\"[{\\\"Id\\\":\\\"1_5AF3A0A\\\
+        \",\\\"Description\\\":\\\"Drinks\\\"}]\",\"piesdepartmentnamesjson\":\"[\\\
+        \"Drinks\\\"]\",\"piescategorynamesjson\":\"[\\\"Cordials, Juices & Iced Teas\\\
+        \"]\",\"piessubcategorynamesjson\":\"[\\\"Chilled Juices\\\"]\",\"servingsize-total-nip\"\
+        :null,\"servingsperpack-total-nip\":null,\"microwaveable\":\"False\",\"ovencook\"\
+        :\"False\",\"vegetarian\":\"False\",\"freezable\":\"False\",\"containsnuts\"\
+        :\"False\",\"containsgluten\":\"False\",\"description\":\"One day, the Nudie\
+        \ fruit (especially the wild outdoorsy types) decided to sail into the sunset\
+        \ and seek out exotic, undiscovered fruit to invite home. After many hair-raising\
+        \ adventures (for the kiwi fruit at least) they finally met a tribe of young,\
+        \ green coconuts who, unlike their brown elders, made 100% pure, hydrating,\
+        \ all-natural, thirst-quenching coconut water! \\\"Perfect!\\\" said the fruit.\
+        \ \\\"It sure is!\\\" said the coconuts. Ah, love at first sight.\\n\\nA slurpable\
+        \ supply of potassium (an essential electrolyte).\",\"ingredients\":\"Water\
+        \ of 3 5/6 Green Coconuts (100%) and nothing else!\",\"nutritionalinformation\"\
+        :\"{\\\"Name\\\":\\\"Nutritional Information\\\",\\\"Attributes\\\":[{\\\"\
+        Id\\\":705,\\\"Name\\\":\\\"Carbohydrate Quantity Per 100g - Total - NIP\\\
+        \",\\\"Value\\\":\\\"4.7g\\\",\\\"Description\\\":\\\"Carbohydrate Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":83},{\\\"Id\\\":706,\\\"Name\\\
+        \":\\\"Carbohydrate Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"\
+        11.8g\\\",\\\"Description\\\":\\\"Carbohydrate Quantity Per Serve - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":87},{\\\"Id\\\":759,\\\"Name\\\":\\\"Energy\
+        \ kJ Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"82kJ\\\",\\\"Description\\\
+        \":\\\"Energy kJ Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":239},{\\\
+        \"Id\\\":760,\\\"Name\\\":\\\"Energy kJ Quantity Per Serve - Total - NIP\\\
+        \",\\\"Value\\\":\\\"205kJ\\\",\\\"Description\\\":\\\"Energy kJ Quantity\
+        \ Per Serve - Total - NIP\\\",\\\"SortOrder\\\":243},{\\\"Id\\\":253,\\\"\
+        Name\\\":\\\"Fat Saturated Quantity Per 100g - Total - NIP\\\",\\\"Value\\\
+        \":\\\"<1g\\\",\\\"Description\\\":\\\"Fat Saturated Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":251},{\\\"Id\\\":258,\\\"Name\\\":\\\"Fat Saturated\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\
+        \":\\\"Fat Saturated Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :255},{\\\"Id\\\":764,\\\"Name\\\":\\\"Fat Total Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Fat Total Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":263},{\\\"Id\\\":264,\\\"Name\\\
+        \":\\\"Fat Total Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\
+        \",\\\"Description\\\":\\\"Fat Total Quantity Per Serve - Total - NIP\\\"\
+        ,\\\"SortOrder\\\":267},{\\\"Id\\\":878,\\\"Name\\\":\\\"Protein Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\"\
+        :\\\"Protein Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":587},{\\\
+        \"Id\\\":882,\\\"Name\\\":\\\"Protein Quantity Per Serve - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Protein Quantity Per Serve\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":591},{\\\"Id\\\":477,\\\"Name\\\":\\\
+        \"Serving Size - Total - NIP\\\",\\\"Value\\\":\\\"250mL\\\",\\\"Description\\\
+        \":\\\"Serving Size - Total - NIP\\\",\\\"SortOrder\\\":607},{\\\"Id\\\":544,\\\
+        \"Name\\\":\\\"Servings Per Pack - Total - NIP\\\",\\\"Value\\\":\\\"4\\\"\
+        ,\\\"Description\\\":\\\"Servings Per Pack - Total - NIP\\\",\\\"SortOrder\\\
+        \":611},{\\\"Id\\\":491,\\\"Name\\\":\\\"Sodium Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"25mg\\\",\\\"Description\\\":\\\"Sodium Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":623},{\\\"Id\\\":495,\\\"Name\\\
+        \":\\\"Sodium Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"63mg\\\
+        \",\\\"Description\\\":\\\"Sodium Quantity Per Serve - Total - NIP\\\",\\\"\
+        SortOrder\\\":627},{\\\"Id\\\":907,\\\"Name\\\":\\\"Sugars Quantity Per 100g\
+        \ - Prefix - NIP\\\",\\\"Value\\\":\\\"\\\",\\\"Description\\\":\\\"Sugars\
+        \ Quantity Per 100g - Prefix - NIP\\\",\\\"SortOrder\\\":645},{\\\"Id\\\"\
+        :908,\\\"Name\\\":\\\"Sugars Quantity Per 100g - SuffixUnits - NIP\\\",\\\"\
+        Value\\\":\\\"g\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g - SuffixUnits\
+        \ - NIP\\\",\\\"SortOrder\\\":646},{\\\"Id\\\":909,\\\"Name\\\":\\\"Sugars\
+        \ Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"3.5g\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":647},{\\\
+        \"Id\\\":910,\\\"Name\\\":\\\"Sugars Quantity Per 100g - ValueWord - NIP\\\
+        \",\\\"Value\\\":\\\"3.5\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g\
+        \ - ValueWord - NIP\\\",\\\"SortOrder\\\":648},{\\\"Id\\\":504,\\\"Name\\\"\
+        :\\\"Sugars Quantity Per Serve - Prefix - NIP\\\",\\\"Value\\\":\\\"\\\",\\\
+        \"Description\\\":\\\"Sugars Quantity Per Serve - Prefix - NIP\\\",\\\"SortOrder\\\
+        \":649},{\\\"Id\\\":911,\\\"Name\\\":\\\"Sugars Quantity Per Serve - SuffixUnits\
+        \ - NIP\\\",\\\"Value\\\":\\\"g\\\",\\\"Description\\\":\\\"Sugars Quantity\
+        \ Per Serve - SuffixUnits - NIP\\\",\\\"SortOrder\\\":650},{\\\"Id\\\":912,\\\
+        \"Name\\\":\\\"Sugars Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\
+        \"8.8g\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve - Total - NIP\\\
+        \",\\\"SortOrder\\\":651},{\\\"Id\\\":572,\\\"Name\\\":\\\"Sugars Quantity\
+        \ Per Serve - ValueWord - NIP\\\",\\\"Value\\\":\\\"8.8\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per Serve - ValueWord - NIP\\\",\\\"SortOrder\\\":652}]}\"\
+        ,\"storageinstructions\":null,\"usageinstructions\":null,\"brand\":\"nudie\"\
+        ,\"manufacturer\":null,\"countryoforigin\":null,\"productheightmm\":null,\"\
+        productwidthmm\":null,\"productdepthmm\":null,\"wool_productpackaging\":null,\"\
+        recyclableinformation\":null,\"importantinformation\":null,\"allergencontains\"\
+        :null,\"allergenmaybepresent\":null,\"allergystatement\":\"Egg Free\",\"lifestyleanddietarystatement\"\
+        :\"Vegetarian\",\"lifestyleclaim\":null,\"wool_dietaryclaim\":\"Free from\
+        \ artificial flavour. Free from preservatives. No added sugars\",\"boxedcontents\"\
+        :null,\"suitablefor\":null,\"fragrance\":null,\"colour\":null,\"antioxidant\"\
+        :\"False\",\"addedvitaminsandminerals\":\"False\",\"bpafree\":\"False\",\"\
+        sulfatefree\":\"False\",\"parabenfree\":\"False\",\"claims\":null,\"alcoholfree\"\
+        :null,\"anti-dandruff\":null,\"dermatologicallyapproved\":null,\"dermatologistrecommended\"\
+        :null,\"dermatologisttested\":null,\"fragrance-free\":null,\"haircolour\"\
+        :null,\"hairtype\":null,\"hypo-allergenic\":null,\"non-comedogenic\":null,\"\
+        oilfree\":null,\"ophthalmologistapproved\":null,\"ophthalmologisttested\"\
+        :null,\"paba-free\":null,\"skincondition\":null,\"skintype\":null,\"soap-free\"\
+        :null,\"spf\":null,\"sweatresistant\":null,\"timer\":null,\"waterresistant\"\
+        :null,\"phbalanced\":null,\"antiseptic\":\"False\",\"antibacterial\":\"False\"\
+        ,\"activeconstituents\":null,\"contains\":null,\"microwavesafe\":\"False\"\
+        ,\"productimagecount\":\"1\",\"friendlydisclaimer\":null,\"productimages\"\
+        :\"761072.jpg\",\"healthstarrating\":\"0\",\"tgawarnings\":null,\"tgawarning\"\
+        :null},\"DetailsImagePaths\":[\"https://cdn0.woolworths.media/content/wowproductimages/large/761072.jpg\"\
+        ],\"Variety\":\"coconut water straight up\",\"Rating\":{\"ReviewCount\":0,\"\
+        RatingCount\":0,\"OneStarCount\":0,\"TwoStarCount\":0,\"ThreeStarCount\":0,\"\
+        FourStarCount\":0,\"FiveStarCount\":0,\"Average\":0,\"OneStarPercentage\"\
+        :0,\"TwoStarPercentage\":0,\"ThreeStarPercentage\":0,\"FourStarPercentage\"\
+        :0,\"FiveStarPercentage\":0},\"IsSponsoredAd\":false,\"AdID\":null,\"AdIndex\"\
+        :null},\"Nutrition\":null,\"VideoUrl\":null,\"PrimaryCategory\":{\"Department\"\
+        :\"drinks\",\"Aisle\":\"chilled juice\",\"VisualShoppingAisleId\":45,\"DisplayOrder\"\
+        :2,\"OverrideName\":null,\"Instance\":\"Alpha\"},\"AdditionalAttributes\"\
+        :{\"sapdepartmentname\":\"FRESH CONVENIENCE\",\"sapdepartmentno\":\"10\",\"\
+        sapcategoryname\":\"DAIRY - CHILLED JUICES & DRINKS\",\"sapcategoryno\":\"\
+        92\",\"sapsubcategoryname\":\"DAIRY - CHILLED JUICES & DRINKS\",\"sapsubcategoryno\"\
+        :\"918\",\"sapsegmentname\":\"PREMIUM JUICE\",\"sapsegmentno\":\"8\",\"specialsgroupid\"\
+        :null,\"PiesProductDepartmentNodeId\":\"1_5AF3A0A\",\"PiesProductDepartmentsjson\"\
+        :\"[{\\\"Id\\\":\\\"1_5AF3A0A\\\",\\\"Description\\\":\\\"Drinks\\\"}]\",\"\
+        piesdepartmentnamesjson\":\"[\\\"Drinks\\\"]\",\"piescategorynamesjson\":\"\
+        [\\\"Cordials, Juices & Iced Teas\\\"]\",\"piessubcategorynamesjson\":\"[\\\
+        \"Chilled Juices\\\"]\",\"servingsize-total-nip\":null,\"servingsperpack-total-nip\"\
+        :null,\"microwaveable\":\"False\",\"ovencook\":\"False\",\"vegetarian\":\"\
+        False\",\"freezable\":\"False\",\"containsnuts\":\"False\",\"containsgluten\"\
+        :\"False\",\"description\":\"One day, the Nudie fruit (especially the wild\
+        \ outdoorsy types) decided to sail into the sunset and seek out exotic, undiscovered\
+        \ fruit to invite home. After many hair-raising adventures (for the kiwi fruit\
+        \ at least) they finally met a tribe of young, green coconuts who, unlike\
+        \ their brown elders, made 100% pure, hydrating, all-natural, thirst-quenching\
+        \ coconut water! \\\"Perfect!\\\" said the fruit. \\\"It sure is!\\\" said\
+        \ the coconuts. Ah, love at first sight.\\n\\nA slurpable supply of potassium\
+        \ (an essential electrolyte).\",\"ingredients\":\"Water of 3 5/6 Green Coconuts\
+        \ (100%) and nothing else!\",\"nutritionalinformation\":\"{\\\"Name\\\":\\\
+        \"Nutritional Information\\\",\\\"Attributes\\\":[{\\\"Id\\\":705,\\\"Name\\\
+        \":\\\"Carbohydrate Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"\
+        4.7g\\\",\\\"Description\\\":\\\"Carbohydrate Quantity Per 100g - Total -\
+        \ NIP\\\",\\\"SortOrder\\\":83},{\\\"Id\\\":706,\\\"Name\\\":\\\"Carbohydrate\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"11.8g\\\",\\\"Description\\\
+        \":\\\"Carbohydrate Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :87},{\\\"Id\\\":759,\\\"Name\\\":\\\"Energy kJ Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"82kJ\\\",\\\"Description\\\":\\\"Energy kJ Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":239},{\\\"Id\\\":760,\\\"Name\\\
+        \":\\\"Energy kJ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"205kJ\\\
+        \",\\\"Description\\\":\\\"Energy kJ Quantity Per Serve - Total - NIP\\\"\
+        ,\\\"SortOrder\\\":243},{\\\"Id\\\":253,\\\"Name\\\":\\\"Fat Saturated Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\"\
+        :\\\"Fat Saturated Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":251},{\\\
+        \"Id\\\":258,\\\"Name\\\":\\\"Fat Saturated Quantity Per Serve - Total - NIP\\\
+        \",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Fat Saturated Quantity\
+        \ Per Serve - Total - NIP\\\",\\\"SortOrder\\\":255},{\\\"Id\\\":764,\\\"\
+        Name\\\":\\\"Fat Total Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\
+        \"<1g\\\",\\\"Description\\\":\\\"Fat Total Quantity Per 100g - Total - NIP\\\
+        \",\\\"SortOrder\\\":263},{\\\"Id\\\":264,\\\"Name\\\":\\\"Fat Total Quantity\
+        \ Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\"\
+        :\\\"Fat Total Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":267},{\\\
+        \"Id\\\":878,\\\"Name\\\":\\\"Protein Quantity Per 100g - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Protein Quantity Per 100g\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":587},{\\\"Id\\\":882,\\\"Name\\\":\\\
+        \"Protein Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\
+        \"Description\\\":\\\"Protein Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\
+        \":591},{\\\"Id\\\":477,\\\"Name\\\":\\\"Serving Size - Total - NIP\\\",\\\
+        \"Value\\\":\\\"250mL\\\",\\\"Description\\\":\\\"Serving Size - Total - NIP\\\
+        \",\\\"SortOrder\\\":607},{\\\"Id\\\":544,\\\"Name\\\":\\\"Servings Per Pack\
+        \ - Total - NIP\\\",\\\"Value\\\":\\\"4\\\",\\\"Description\\\":\\\"Servings\
+        \ Per Pack - Total - NIP\\\",\\\"SortOrder\\\":611},{\\\"Id\\\":491,\\\"Name\\\
+        \":\\\"Sodium Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"25mg\\\
+        \",\\\"Description\\\":\\\"Sodium Quantity Per 100g - Total - NIP\\\",\\\"\
+        SortOrder\\\":623},{\\\"Id\\\":495,\\\"Name\\\":\\\"Sodium Quantity Per Serve\
+        \ - Total - NIP\\\",\\\"Value\\\":\\\"63mg\\\",\\\"Description\\\":\\\"Sodium\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":627},{\\\"Id\\\"\
+        :907,\\\"Name\\\":\\\"Sugars Quantity Per 100g - Prefix - NIP\\\",\\\"Value\\\
+        \":\\\"\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g - Prefix - NIP\\\
+        \",\\\"SortOrder\\\":645},{\\\"Id\\\":908,\\\"Name\\\":\\\"Sugars Quantity\
+        \ Per 100g - SuffixUnits - NIP\\\",\\\"Value\\\":\\\"g\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per 100g - SuffixUnits - NIP\\\",\\\"SortOrder\\\"\
+        :646},{\\\"Id\\\":909,\\\"Name\\\":\\\"Sugars Quantity Per 100g - Total -\
+        \ NIP\\\",\\\"Value\\\":\\\"3.5g\\\",\\\"Description\\\":\\\"Sugars Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":647},{\\\"Id\\\":910,\\\"Name\\\
+        \":\\\"Sugars Quantity Per 100g - ValueWord - NIP\\\",\\\"Value\\\":\\\"3.5\\\
+        \",\\\"Description\\\":\\\"Sugars Quantity Per 100g - ValueWord - NIP\\\"\
+        ,\\\"SortOrder\\\":648},{\\\"Id\\\":504,\\\"Name\\\":\\\"Sugars Quantity Per\
+        \ Serve - Prefix - NIP\\\",\\\"Value\\\":\\\"\\\",\\\"Description\\\":\\\"\
+        Sugars Quantity Per Serve - Prefix - NIP\\\",\\\"SortOrder\\\":649},{\\\"\
+        Id\\\":911,\\\"Name\\\":\\\"Sugars Quantity Per Serve - SuffixUnits - NIP\\\
+        \",\\\"Value\\\":\\\"g\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve\
+        \ - SuffixUnits - NIP\\\",\\\"SortOrder\\\":650},{\\\"Id\\\":912,\\\"Name\\\
+        \":\\\"Sugars Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"8.8g\\\
+        \",\\\"Description\\\":\\\"Sugars Quantity Per Serve - Total - NIP\\\",\\\"\
+        SortOrder\\\":651},{\\\"Id\\\":572,\\\"Name\\\":\\\"Sugars Quantity Per Serve\
+        \ - ValueWord - NIP\\\",\\\"Value\\\":\\\"8.8\\\",\\\"Description\\\":\\\"\
+        Sugars Quantity Per Serve - ValueWord - NIP\\\",\\\"SortOrder\\\":652}]}\"\
+        ,\"storageinstructions\":null,\"usageinstructions\":null,\"brand\":\"nudie\"\
+        ,\"manufacturer\":null,\"countryoforigin\":null,\"productheightmm\":null,\"\
+        productwidthmm\":null,\"productdepthmm\":null,\"wool_productpackaging\":null,\"\
+        recyclableinformation\":null,\"importantinformation\":null,\"allergencontains\"\
+        :null,\"allergenmaybepresent\":null,\"allergystatement\":\"Egg Free\",\"lifestyleanddietarystatement\"\
+        :\"Vegetarian\",\"lifestyleclaim\":null,\"wool_dietaryclaim\":\"Free from\
+        \ artificial flavour. Free from preservatives. No added sugars\",\"boxedcontents\"\
+        :null,\"suitablefor\":null,\"fragrance\":null,\"colour\":null,\"antioxidant\"\
+        :\"False\",\"addedvitaminsandminerals\":\"False\",\"bpafree\":\"False\",\"\
+        sulfatefree\":\"False\",\"parabenfree\":\"False\",\"claims\":null,\"alcoholfree\"\
+        :null,\"anti-dandruff\":null,\"dermatologicallyapproved\":null,\"dermatologistrecommended\"\
+        :null,\"dermatologisttested\":null,\"fragrance-free\":null,\"haircolour\"\
+        :null,\"hairtype\":null,\"hypo-allergenic\":null,\"non-comedogenic\":null,\"\
+        oilfree\":null,\"ophthalmologistapproved\":null,\"ophthalmologisttested\"\
+        :null,\"paba-free\":null,\"skincondition\":null,\"skintype\":null,\"soap-free\"\
+        :null,\"spf\":null,\"sweatresistant\":null,\"timer\":null,\"waterresistant\"\
+        :null,\"phbalanced\":null,\"antiseptic\":\"False\",\"antibacterial\":\"False\"\
+        ,\"activeconstituents\":null,\"contains\":null,\"microwavesafe\":\"False\"\
+        ,\"productimagecount\":\"1\",\"friendlydisclaimer\":null,\"productimages\"\
+        :\"761072.jpg\",\"healthstarrating\":\"0\",\"tgawarnings\":null,\"tgawarning\"\
+        :null},\"TgaAttributes\":{\"Directions\":null,\"ProductWarnings\":null},\"\
+        DetailsImagePaths\":[\"https://cdn0.woolworths.media/content/wowproductimages/large/761072.jpg\"\
+        ],\"NutritionalInformation\":[{\"Name\":\"Energy\",\"Values\":{\"Avg Qty Per\
+        \ Serving\":\"205kJ\",\"Avg Qty Per 100g\":\"82kJ\"},\"ServingSize\":\"250mL\"\
+        ,\"ServingsPerPack\":\"4\"},{\"Name\":\"Protein\",\"Values\":{\"Avg Qty Per\
+        \ Serving\":\"<1g\",\"Avg Qty Per 100g\":\"<1g\"},\"ServingSize\":\"250mL\"\
+        ,\"ServingsPerPack\":\"4\"},{\"Name\":\"Fat, total\",\"Values\":{\"Avg Qty\
+        \ Per Serving\":\"<1g\",\"Avg Qty Per 100g\":\"<1g\"},\"ServingSize\":\"250mL\"\
+        ,\"ServingsPerPack\":\"4\"},{\"Name\":\"\u2013 saturated\",\"Values\":{\"\
+        Avg Qty Per Serving\":\"<1g\",\"Avg Qty Per 100g\":\"<1g\"},\"ServingSize\"\
+        :\"250mL\",\"ServingsPerPack\":\"4\"},{\"Name\":\"Carbohydrate\",\"Values\"\
+        :{\"Avg Qty Per Serving\":\"11.8g\",\"Avg Qty Per 100g\":\"4.7g\"},\"ServingSize\"\
+        :\"250mL\",\"ServingsPerPack\":\"4\"},{\"Name\":\"\u2013 sugars\",\"Values\"\
+        :{\"Avg Qty Per Serving\":\"8.8g\",\"Avg Qty Per 100g\":\"3.5g\"},\"ServingSize\"\
+        :\"250mL\",\"ServingsPerPack\":\"4\"},{\"Name\":\"Sodium\",\"Values\":{\"\
+        Avg Qty Per Serving\":\"63mg\",\"Avg Qty Per 100g\":\"25mg\"},\"ServingSize\"\
+        :\"250mL\",\"ServingsPerPack\":\"4\"}],\"RichRelevancePlacements\":[{\"placement_name\"\
+        :null,\"message\":null,\"Products\":[],\"Items\":[],\"StockcodesForDiscover\"\
+        :[]}],\"IsTobacco\":false,\"CountryOfOriginLabel\":{\"PngImageFile\":\"https://cdn0.woolworths.media/content/countryoforiginlabelling/a09682fe-c769-4163-88cd-b722d38bace5.png\"\
+        ,\"SvgImageFile\":\"https://cdn0.woolworths.media/content/countryoforiginlabelling/a09682fe-c769-4163-88cd-b722d38bace5.svg\"\
+        ,\"AltText\":\"Product of Thailand\",\"CountryOfOrigin\":\"Thailand\",\"IngredientPercentage\"\
+        :\"\",\"Disclaimer\":null}}"
+    headers:
+      Access-Control-Allow-Headers: Content-type
+      Access-Control-Allow-Origin: '*'
+      Access-Control-Expose-Headers: Request-Context
+      Cache-Control: no-cache, no-store, must-revalidate
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Length: '4468'
+      Content-Type: application/json; charset=utf-8
+      Date: Fri, 13 Mar 2020 04:30:23 GMT
+      Expires: '-1'
+      Pragma: no-cache
+      Request-Context: appId=cid-v1:b49612dc-0eb5-452a-a689-7af50f34384a
+      Server-Timing: origin; dur=112
+      Set-Cookie: akaalb_woolworths.com.au=~op=www_woolworths_com_au_ZoneA:PROD-ZoneA|~rv=55~m=PROD-ZoneA:0|~os=43eb3391333cc20efbd7f812851447e6~id=c2dc2a5f463746a90e48f3b3f855035c;
+        path=/; Secure; SameSite=None
+      Strict-Transport-Security: max-age=600 ; includeSubDomains
+      Vary: Accept-Encoding
+      X-Content-Type-Options: nosniff
+      X-XSS-Protection: 1; mode=block
+    status:
+      code: 200
+      message: OK
+    url: https://www.woolworths.com.au/apis/ui/product/detail/761072
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://www.woolworths.com.au/apis/ui/product/detail/38153
+  response:
+    body:
+      string: "{\"Product\":{\"TileID\":0,\"Stockcode\":38153,\"Barcode\":\"8002560200144\"\
+        ,\"GtinFormat\":13,\"CupPrice\":null,\"InstoreCupPrice\":null,\"CupMeasure\"\
+        :\"1KG\",\"CupString\":\"\",\"InstoreCupString\":\"\",\"HasCupPrice\":false,\"\
+        InstoreHasCupPrice\":false,\"Price\":null,\"InstorePrice\":null,\"Name\":\"\
+        Annalisa Tomatoes Diced\",\"UrlFriendlyName\":\"annalisa-tomatoes-diced\"\
+        ,\"Description\":\" Annalisa Tomatoes Diced 400g\",\"SmallImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/small/038153.jpg\"\
+        ,\"MediumImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/medium/038153.jpg\"\
+        ,\"LargeImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/large/038153.jpg\"\
+        ,\"IsNew\":false,\"IsOnSpecial\":false,\"InstoreIsOnSpecial\":false,\"IsEdrSpecial\"\
+        :false,\"SavingsAmount\":null,\"InstoreSavingsAmount\":null,\"WasPrice\":0,\"\
+        InstoreWasPrice\":0,\"QuantityInTrolley\":0,\"Unit\":\"Each\",\"MinimumQuantity\"\
+        :1,\"HasBeenBoughtBefore\":false,\"IsInTrolley\":false,\"Source\":\"ProductDetail\"\
+        ,\"SupplyLimit\":10,\"IsRanged\":false,\"IsInStock\":true,\"PackageSize\"\
+        :\"400g\",\"IsPmDelivery\":false,\"IsForCollection\":false,\"IsForDelivery\"\
+        :false,\"IsForExpress\":false,\"ProductRestrictionMessage\":null,\"ProductWarningMessage\"\
+        :null,\"CentreTag\":{\"TagContent\":null,\"TagLink\":null,\"FallbackText\"\
+        :null,\"TagType\":\"None\"},\"IsCentreTag\":false,\"ImageTag\":{\"TagContent\"\
+        :null,\"TagLink\":null,\"FallbackText\":\"\",\"TagType\":\"None\"},\"HeaderTag\"\
+        :null,\"HasHeaderTag\":false,\"UnitWeightInGrams\":460,\"SupplyLimitMessage\"\
+        :\"'Annalisa Tomatoes Diced' has a supply limit of 10. The quantity in your\
+        \ cart has been reduced accordingly. To purchase a larger quantity, please\
+        \ contact us on 1800 000 610. Please note we do not supply trade orders.\"\
+        ,\"SmallFormatDescription\":\"Annalisa Tomatoes Diced\",\"FullDescription\"\
+        :\"Annalisa Tomatoes Diced\",\"IsAvailable\":false,\"InstoreIsAvailable\"\
+        :false,\"IsPurchasable\":false,\"InstoreIsPurchasable\":false,\"AgeRestricted\"\
+        :false,\"DisplayQuantity\":1,\"RichDescription\":\"Annalisa Italian Diced\
+        \ Tomatoes\",\"IsDeliveryPass\":false,\"HideWasSavedPrice\":false,\"SapCategories\"\
+        :{\"SapDepartmentName\":\"GROCERIES\",\"SapCategoryName\":\"CANNED VEGETABLES\"\
+        ,\"SapSubCategoryName\":\"CANNED VEGETABLES\",\"SapSegmentName\":\"TOMATOES\
+        \ - PIECES / CRUSHED\"},\"Brand\":\"annalisa\",\"FooterTag\":{\"TagContent\"\
+        :null,\"TagLink\":null,\"FallbackText\":null,\"TagType\":\"None\"},\"IsFooterEnabled\"\
+        :false,\"Diagnostics\":\"0\",\"IsBundle\":false,\"IsInFamily\":false,\"ChildProducts\"\
+        :[],\"UrlOverride\":null,\"AdditionalAttributes\":{\"sapdepartmentname\":\"\
+        GROCERIES\",\"sapdepartmentno\":\"5\",\"sapcategoryname\":\"CANNED VEGETABLES\"\
+        ,\"sapcategoryno\":\"71\",\"sapsubcategoryname\":\"CANNED VEGETABLES\",\"\
+        sapsubcategoryno\":\"827\",\"sapsegmentname\":\"TOMATOES - PIECES / CRUSHED\"\
+        ,\"sapsegmentno\":\"20\",\"specialsgroupid\":null,\"PiesProductDepartmentNodeId\"\
+        :\"1_39FD49C\",\"PiesProductDepartmentsjson\":\"[{\\\"Id\\\":\\\"1_39FD49C\\\
+        \",\\\"Description\\\":\\\"Pantry\\\"}]\",\"piesdepartmentnamesjson\":\"[\\\
+        \"Pantry\\\"]\",\"piescategorynamesjson\":\"[\\\"Canned Food & Instant Meals\\\
+        \"]\",\"piessubcategorynamesjson\":\"[\\\"Canned Tomatoes\\\",\\\"Canned Vegetables\\\
+        \",\\\"Canned Beans & Legumes\\\"]\",\"servingsize-total-nip\":null,\"servingsperpack-total-nip\"\
+        :null,\"microwaveable\":\"False\",\"ovencook\":\"False\",\"vegetarian\":\"\
+        False\",\"freezable\":\"False\",\"containsnuts\":\"False\",\"containsgluten\"\
+        :\"False\",\"description\":\"Annalisa Italian Diced Tomatoes\",\"ingredients\"\
+        :\"Diced tomatoes, tomato juice\",\"nutritionalinformation\":\"{\\\"Name\\\
+        \":\\\"Nutritional Information\\\",\\\"Attributes\\\":[{\\\"Id\\\":705,\\\"\
+        Name\\\":\\\"Carbohydrate Quantity Per 100g - Total - NIP\\\",\\\"Value\\\"\
+        :\\\"3,9g\\\",\\\"Description\\\":\\\"Carbohydrate Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":83},{\\\"Id\\\":706,\\\"Name\\\":\\\"Carbohydrate\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"5,2g\\\",\\\"Description\\\
+        \":\\\"Carbohydrate Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :87},{\\\"Id\\\":759,\\\"Name\\\":\\\"Energy kJ Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"98kJ(23kCal)\\\",\\\"Description\\\":\\\"Energy\
+        \ kJ Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":239},{\\\"Id\\\"\
+        :760,\\\"Name\\\":\\\"Energy kJ Quantity Per Serve - Total - NIP\\\",\\\"\
+        Value\\\":\\\"130kJ\\\",\\\"Description\\\":\\\"Energy kJ Quantity Per Serve\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":243},{\\\"Id\\\":253,\\\"Name\\\":\\\
+        \"Fat Saturated Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"0g\\\
+        \",\\\"Description\\\":\\\"Fat Saturated Quantity Per 100g - Total - NIP\\\
+        \",\\\"SortOrder\\\":251},{\\\"Id\\\":258,\\\"Name\\\":\\\"Fat Saturated Quantity\
+        \ Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"0g\\\",\\\"Description\\\"\
+        :\\\"Fat Saturated Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :255},{\\\"Id\\\":764,\\\"Name\\\":\\\"Fat Total Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"0,1g\\\",\\\"Description\\\":\\\"Fat Total Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":263},{\\\"Id\\\":264,\\\"Name\\\
+        \":\\\"Fat Total Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"0,1g\\\
+        \",\\\"Description\\\":\\\"Fat Total Quantity Per Serve - Total - NIP\\\"\
+        ,\\\"SortOrder\\\":267},{\\\"Id\\\":878,\\\"Name\\\":\\\"Protein Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"1,2g\\\",\\\"Description\\\"\
+        :\\\"Protein Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":587},{\\\
+        \"Id\\\":882,\\\"Name\\\":\\\"Protein Quantity Per Serve - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"1,6g\\\",\\\"Description\\\":\\\"Protein Quantity Per Serve\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":591},{\\\"Id\\\":477,\\\"Name\\\":\\\
+        \"Serving Size - Total - NIP\\\",\\\"Value\\\":\\\"133g\\\",\\\"Description\\\
+        \":\\\"Serving Size - Total - NIP\\\",\\\"SortOrder\\\":607},{\\\"Id\\\":544,\\\
+        \"Name\\\":\\\"Servings Per Pack - Total - NIP\\\",\\\"Value\\\":\\\"3\\\"\
+        ,\\\"Description\\\":\\\"Servings Per Pack - Total - NIP\\\",\\\"SortOrder\\\
+        \":611},{\\\"Id\\\":491,\\\"Name\\\":\\\"Sodium Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"10mg\\\",\\\"Description\\\":\\\"Sodium Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":623},{\\\"Id\\\":495,\\\"Name\\\
+        \":\\\"Sodium Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"13mg\\\
+        \",\\\"Description\\\":\\\"Sodium Quantity Per Serve - Total - NIP\\\",\\\"\
+        SortOrder\\\":627},{\\\"Id\\\":907,\\\"Name\\\":\\\"Sugars Quantity Per 100g\
+        \ - Prefix - NIP\\\",\\\"Value\\\":\\\"\\\",\\\"Description\\\":\\\"Sugars\
+        \ Quantity Per 100g - Prefix - NIP\\\",\\\"SortOrder\\\":645},{\\\"Id\\\"\
+        :908,\\\"Name\\\":\\\"Sugars Quantity Per 100g - SuffixUnits - NIP\\\",\\\"\
+        Value\\\":\\\",9g\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g - SuffixUnits\
+        \ - NIP\\\",\\\"SortOrder\\\":646},{\\\"Id\\\":909,\\\"Name\\\":\\\"Sugars\
+        \ Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"3,9g\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":647},{\\\
+        \"Id\\\":910,\\\"Name\\\":\\\"Sugars Quantity Per 100g - ValueWord - NIP\\\
+        \",\\\"Value\\\":\\\"3\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g\
+        \ - ValueWord - NIP\\\",\\\"SortOrder\\\":648},{\\\"Id\\\":504,\\\"Name\\\"\
+        :\\\"Sugars Quantity Per Serve - Prefix - NIP\\\",\\\"Value\\\":\\\"\\\",\\\
+        \"Description\\\":\\\"Sugars Quantity Per Serve - Prefix - NIP\\\",\\\"SortOrder\\\
+        \":649},{\\\"Id\\\":911,\\\"Name\\\":\\\"Sugars Quantity Per Serve - SuffixUnits\
+        \ - NIP\\\",\\\"Value\\\":\\\",2g\\\",\\\"Description\\\":\\\"Sugars Quantity\
+        \ Per Serve - SuffixUnits - NIP\\\",\\\"SortOrder\\\":650},{\\\"Id\\\":912,\\\
+        \"Name\\\":\\\"Sugars Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\
+        \"5,2g\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve - Total - NIP\\\
+        \",\\\"SortOrder\\\":651},{\\\"Id\\\":572,\\\"Name\\\":\\\"Sugars Quantity\
+        \ Per Serve - ValueWord - NIP\\\",\\\"Value\\\":\\\"5\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per Serve - ValueWord - NIP\\\",\\\"SortOrder\\\":652}]}\"\
+        ,\"storageinstructions\":\"After opening, unused contents to be stored in\
+        \ an airtight container in the fridge and consumed within three days.\",\"\
+        usageinstructions\":null,\"brand\":\"annalisa\",\"manufacturer\":null,\"countryoforigin\"\
+        :null,\"productheightmm\":null,\"productwidthmm\":null,\"productdepthmm\"\
+        :null,\"wool_productpackaging\":null,\"recyclableinformation\":null,\"importantinformation\"\
+        :null,\"allergencontains\":null,\"allergenmaybepresent\":null,\"allergystatement\"\
+        :\"Soy Free\",\"lifestyleanddietarystatement\":\"Low Salt\",\"lifestyleclaim\"\
+        :null,\"wool_dietaryclaim\":null,\"boxedcontents\":null,\"suitablefor\":null,\"\
+        fragrance\":null,\"colour\":null,\"antioxidant\":\"False\",\"addedvitaminsandminerals\"\
+        :\"False\",\"bpafree\":\"False\",\"sulfatefree\":\"False\",\"parabenfree\"\
+        :\"False\",\"claims\":null,\"alcoholfree\":null,\"anti-dandruff\":null,\"\
+        dermatologicallyapproved\":null,\"dermatologistrecommended\":null,\"dermatologisttested\"\
+        :null,\"fragrance-free\":null,\"haircolour\":null,\"hairtype\":null,\"hypo-allergenic\"\
+        :null,\"non-comedogenic\":null,\"oilfree\":null,\"ophthalmologistapproved\"\
+        :null,\"ophthalmologisttested\":null,\"paba-free\":null,\"skincondition\"\
+        :null,\"skintype\":null,\"soap-free\":null,\"spf\":null,\"sweatresistant\"\
+        :null,\"timer\":null,\"waterresistant\":null,\"phbalanced\":null,\"antiseptic\"\
+        :\"False\",\"antibacterial\":\"False\",\"activeconstituents\":null,\"contains\"\
+        :null,\"microwavesafe\":\"False\",\"productimagecount\":\"2\",\"friendlydisclaimer\"\
+        :null,\"productimages\":\"38153.jpg,38153_1.jpg\",\"healthstarrating\":\"\
+        0\",\"tgawarnings\":null,\"tgawarning\":null},\"DetailsImagePaths\":[\"https://cdn0.woolworths.media/content/wowproductimages/large/038153.jpg\"\
+        ,\"https://cdn0.woolworths.media/content/wowproductimages/large/038153_1.jpg\"\
+        ],\"Variety\":\"diced\",\"Rating\":{\"ReviewCount\":0,\"RatingCount\":0,\"\
+        OneStarCount\":0,\"TwoStarCount\":0,\"ThreeStarCount\":0,\"FourStarCount\"\
+        :0,\"FiveStarCount\":0,\"Average\":0,\"OneStarPercentage\":0,\"TwoStarPercentage\"\
+        :0,\"ThreeStarPercentage\":0,\"FourStarPercentage\":0,\"FiveStarPercentage\"\
+        :0},\"IsSponsoredAd\":false,\"AdID\":null,\"AdIndex\":null},\"Nutrition\"\
+        :null,\"VideoUrl\":null,\"PrimaryCategory\":{\"Department\":\"canned & packet\
+        \ food\",\"Aisle\":\"canned tomatoes\",\"VisualShoppingAisleId\":3,\"DisplayOrder\"\
+        :15,\"OverrideName\":null,\"Instance\":\"Alpha\"},\"AdditionalAttributes\"\
+        :{\"sapdepartmentname\":\"GROCERIES\",\"sapdepartmentno\":\"5\",\"sapcategoryname\"\
+        :\"CANNED VEGETABLES\",\"sapcategoryno\":\"71\",\"sapsubcategoryname\":\"\
+        CANNED VEGETABLES\",\"sapsubcategoryno\":\"827\",\"sapsegmentname\":\"TOMATOES\
+        \ - PIECES / CRUSHED\",\"sapsegmentno\":\"20\",\"specialsgroupid\":null,\"\
+        PiesProductDepartmentNodeId\":\"1_39FD49C\",\"PiesProductDepartmentsjson\"\
+        :\"[{\\\"Id\\\":\\\"1_39FD49C\\\",\\\"Description\\\":\\\"Pantry\\\"}]\",\"\
+        piesdepartmentnamesjson\":\"[\\\"Pantry\\\"]\",\"piescategorynamesjson\":\"\
+        [\\\"Canned Food & Instant Meals\\\"]\",\"piessubcategorynamesjson\":\"[\\\
+        \"Canned Tomatoes\\\",\\\"Canned Vegetables\\\",\\\"Canned Beans & Legumes\\\
+        \"]\",\"servingsize-total-nip\":null,\"servingsperpack-total-nip\":null,\"\
+        microwaveable\":\"False\",\"ovencook\":\"False\",\"vegetarian\":\"False\"\
+        ,\"freezable\":\"False\",\"containsnuts\":\"False\",\"containsgluten\":\"\
+        False\",\"description\":\"Annalisa Italian Diced Tomatoes\",\"ingredients\"\
+        :\"Diced tomatoes, tomato juice\",\"nutritionalinformation\":\"{\\\"Name\\\
+        \":\\\"Nutritional Information\\\",\\\"Attributes\\\":[{\\\"Id\\\":705,\\\"\
+        Name\\\":\\\"Carbohydrate Quantity Per 100g - Total - NIP\\\",\\\"Value\\\"\
+        :\\\"3,9g\\\",\\\"Description\\\":\\\"Carbohydrate Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":83},{\\\"Id\\\":706,\\\"Name\\\":\\\"Carbohydrate\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"5,2g\\\",\\\"Description\\\
+        \":\\\"Carbohydrate Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :87},{\\\"Id\\\":759,\\\"Name\\\":\\\"Energy kJ Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"98kJ(23kCal)\\\",\\\"Description\\\":\\\"Energy\
+        \ kJ Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":239},{\\\"Id\\\"\
+        :760,\\\"Name\\\":\\\"Energy kJ Quantity Per Serve - Total - NIP\\\",\\\"\
+        Value\\\":\\\"130kJ\\\",\\\"Description\\\":\\\"Energy kJ Quantity Per Serve\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":243},{\\\"Id\\\":253,\\\"Name\\\":\\\
+        \"Fat Saturated Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"0g\\\
+        \",\\\"Description\\\":\\\"Fat Saturated Quantity Per 100g - Total - NIP\\\
+        \",\\\"SortOrder\\\":251},{\\\"Id\\\":258,\\\"Name\\\":\\\"Fat Saturated Quantity\
+        \ Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"0g\\\",\\\"Description\\\"\
+        :\\\"Fat Saturated Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :255},{\\\"Id\\\":764,\\\"Name\\\":\\\"Fat Total Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"0,1g\\\",\\\"Description\\\":\\\"Fat Total Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":263},{\\\"Id\\\":264,\\\"Name\\\
+        \":\\\"Fat Total Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"0,1g\\\
+        \",\\\"Description\\\":\\\"Fat Total Quantity Per Serve - Total - NIP\\\"\
+        ,\\\"SortOrder\\\":267},{\\\"Id\\\":878,\\\"Name\\\":\\\"Protein Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"1,2g\\\",\\\"Description\\\"\
+        :\\\"Protein Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":587},{\\\
+        \"Id\\\":882,\\\"Name\\\":\\\"Protein Quantity Per Serve - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"1,6g\\\",\\\"Description\\\":\\\"Protein Quantity Per Serve\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":591},{\\\"Id\\\":477,\\\"Name\\\":\\\
+        \"Serving Size - Total - NIP\\\",\\\"Value\\\":\\\"133g\\\",\\\"Description\\\
+        \":\\\"Serving Size - Total - NIP\\\",\\\"SortOrder\\\":607},{\\\"Id\\\":544,\\\
+        \"Name\\\":\\\"Servings Per Pack - Total - NIP\\\",\\\"Value\\\":\\\"3\\\"\
+        ,\\\"Description\\\":\\\"Servings Per Pack - Total - NIP\\\",\\\"SortOrder\\\
+        \":611},{\\\"Id\\\":491,\\\"Name\\\":\\\"Sodium Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"10mg\\\",\\\"Description\\\":\\\"Sodium Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":623},{\\\"Id\\\":495,\\\"Name\\\
+        \":\\\"Sodium Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"13mg\\\
+        \",\\\"Description\\\":\\\"Sodium Quantity Per Serve - Total - NIP\\\",\\\"\
+        SortOrder\\\":627},{\\\"Id\\\":907,\\\"Name\\\":\\\"Sugars Quantity Per 100g\
+        \ - Prefix - NIP\\\",\\\"Value\\\":\\\"\\\",\\\"Description\\\":\\\"Sugars\
+        \ Quantity Per 100g - Prefix - NIP\\\",\\\"SortOrder\\\":645},{\\\"Id\\\"\
+        :908,\\\"Name\\\":\\\"Sugars Quantity Per 100g - SuffixUnits - NIP\\\",\\\"\
+        Value\\\":\\\",9g\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g - SuffixUnits\
+        \ - NIP\\\",\\\"SortOrder\\\":646},{\\\"Id\\\":909,\\\"Name\\\":\\\"Sugars\
+        \ Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"3,9g\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":647},{\\\
+        \"Id\\\":910,\\\"Name\\\":\\\"Sugars Quantity Per 100g - ValueWord - NIP\\\
+        \",\\\"Value\\\":\\\"3\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g\
+        \ - ValueWord - NIP\\\",\\\"SortOrder\\\":648},{\\\"Id\\\":504,\\\"Name\\\"\
+        :\\\"Sugars Quantity Per Serve - Prefix - NIP\\\",\\\"Value\\\":\\\"\\\",\\\
+        \"Description\\\":\\\"Sugars Quantity Per Serve - Prefix - NIP\\\",\\\"SortOrder\\\
+        \":649},{\\\"Id\\\":911,\\\"Name\\\":\\\"Sugars Quantity Per Serve - SuffixUnits\
+        \ - NIP\\\",\\\"Value\\\":\\\",2g\\\",\\\"Description\\\":\\\"Sugars Quantity\
+        \ Per Serve - SuffixUnits - NIP\\\",\\\"SortOrder\\\":650},{\\\"Id\\\":912,\\\
+        \"Name\\\":\\\"Sugars Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\
+        \"5,2g\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve - Total - NIP\\\
+        \",\\\"SortOrder\\\":651},{\\\"Id\\\":572,\\\"Name\\\":\\\"Sugars Quantity\
+        \ Per Serve - ValueWord - NIP\\\",\\\"Value\\\":\\\"5\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per Serve - ValueWord - NIP\\\",\\\"SortOrder\\\":652}]}\"\
+        ,\"storageinstructions\":\"After opening, unused contents to be stored in\
+        \ an airtight container in the fridge and consumed within three days.\",\"\
+        usageinstructions\":null,\"brand\":\"annalisa\",\"manufacturer\":null,\"countryoforigin\"\
+        :null,\"productheightmm\":null,\"productwidthmm\":null,\"productdepthmm\"\
+        :null,\"wool_productpackaging\":null,\"recyclableinformation\":null,\"importantinformation\"\
+        :null,\"allergencontains\":null,\"allergenmaybepresent\":null,\"allergystatement\"\
+        :\"Soy Free\",\"lifestyleanddietarystatement\":\"Low Salt\",\"lifestyleclaim\"\
+        :null,\"wool_dietaryclaim\":null,\"boxedcontents\":null,\"suitablefor\":null,\"\
+        fragrance\":null,\"colour\":null,\"antioxidant\":\"False\",\"addedvitaminsandminerals\"\
+        :\"False\",\"bpafree\":\"False\",\"sulfatefree\":\"False\",\"parabenfree\"\
+        :\"False\",\"claims\":null,\"alcoholfree\":null,\"anti-dandruff\":null,\"\
+        dermatologicallyapproved\":null,\"dermatologistrecommended\":null,\"dermatologisttested\"\
+        :null,\"fragrance-free\":null,\"haircolour\":null,\"hairtype\":null,\"hypo-allergenic\"\
+        :null,\"non-comedogenic\":null,\"oilfree\":null,\"ophthalmologistapproved\"\
+        :null,\"ophthalmologisttested\":null,\"paba-free\":null,\"skincondition\"\
+        :null,\"skintype\":null,\"soap-free\":null,\"spf\":null,\"sweatresistant\"\
+        :null,\"timer\":null,\"waterresistant\":null,\"phbalanced\":null,\"antiseptic\"\
+        :\"False\",\"antibacterial\":\"False\",\"activeconstituents\":null,\"contains\"\
+        :null,\"microwavesafe\":\"False\",\"productimagecount\":\"2\",\"friendlydisclaimer\"\
+        :null,\"productimages\":\"38153.jpg,38153_1.jpg\",\"healthstarrating\":\"\
+        0\",\"tgawarnings\":null,\"tgawarning\":null},\"TgaAttributes\":{\"Directions\"\
+        :null,\"ProductWarnings\":null},\"DetailsImagePaths\":[\"https://cdn0.woolworths.media/content/wowproductimages/large/038153.jpg\"\
+        ,\"https://cdn0.woolworths.media/content/wowproductimages/large/038153_1.jpg\"\
+        ],\"NutritionalInformation\":[{\"Name\":\"Energy\",\"Values\":{\"Avg Qty Per\
+        \ Serving\":\"130kJ\",\"Avg Qty Per 100g\":\"98kJ(23kCal)\"},\"ServingSize\"\
+        :\"133g\",\"ServingsPerPack\":\"3\"},{\"Name\":\"Protein\",\"Values\":{\"\
+        Avg Qty Per Serving\":\"1,6g\",\"Avg Qty Per 100g\":\"1,2g\"},\"ServingSize\"\
+        :\"133g\",\"ServingsPerPack\":\"3\"},{\"Name\":\"Fat, total\",\"Values\":{\"\
+        Avg Qty Per Serving\":\"0,1g\",\"Avg Qty Per 100g\":\"0,1g\"},\"ServingSize\"\
+        :\"133g\",\"ServingsPerPack\":\"3\"},{\"Name\":\"\u2013 saturated\",\"Values\"\
+        :{\"Avg Qty Per Serving\":\"0g\",\"Avg Qty Per 100g\":\"0g\"},\"ServingSize\"\
+        :\"133g\",\"ServingsPerPack\":\"3\"},{\"Name\":\"Carbohydrate\",\"Values\"\
+        :{\"Avg Qty Per Serving\":\"5,2g\",\"Avg Qty Per 100g\":\"3,9g\"},\"ServingSize\"\
+        :\"133g\",\"ServingsPerPack\":\"3\"},{\"Name\":\"\u2013 sugars\",\"Values\"\
+        :{\"Avg Qty Per Serving\":\"5,2g\",\"Avg Qty Per 100g\":\"3,9g\"},\"ServingSize\"\
+        :\"133g\",\"ServingsPerPack\":\"3\"},{\"Name\":\"Sodium\",\"Values\":{\"Avg\
+        \ Qty Per Serving\":\"13mg\",\"Avg Qty Per 100g\":\"10mg\"},\"ServingSize\"\
+        :\"133g\",\"ServingsPerPack\":\"3\"}],\"RichRelevancePlacements\":[{\"placement_name\"\
+        :null,\"message\":null,\"Products\":[],\"Items\":[],\"StockcodesForDiscover\"\
+        :[]}],\"IsTobacco\":false,\"CountryOfOriginLabel\":{\"PngImageFile\":\"https://cdn0.woolworths.media/content/countryoforiginlabelling/8a389008-30c8-4e8e-8c2c-947fc2db03ea.png\"\
+        ,\"SvgImageFile\":\"https://cdn0.woolworths.media/content/countryoforiginlabelling/8a389008-30c8-4e8e-8c2c-947fc2db03ea.svg\"\
+        ,\"AltText\":\"Product of Italy\",\"CountryOfOrigin\":\"Italy\",\"IngredientPercentage\"\
+        :\"\",\"Disclaimer\":null}}"
+    headers:
+      Access-Control-Allow-Headers: Content-type
+      Access-Control-Allow-Origin: '*'
+      Access-Control-Expose-Headers: Request-Context
+      Cache-Control: no-cache, no-store, must-revalidate
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Length: '3699'
+      Content-Type: application/json; charset=utf-8
+      Date: Fri, 13 Mar 2020 04:40:58 GMT
+      Expires: '-1'
+      Pragma: no-cache
+      Request-Context: appId=cid-v1:b49612dc-0eb5-452a-a689-7af50f34384a
+      Server-Timing: origin; dur=54
+      Set-Cookie: akaalb_woolworths.com.au=~op=www_woolworths_com_au_ZoneA:PROD-ZoneA|~rv=11~m=PROD-ZoneA:0|~os=43eb3391333cc20efbd7f812851447e6~id=aae6364ef8c4c2e8d4ce4405ad8ab88d;
+        path=/; Secure; SameSite=None
+      Strict-Transport-Security: max-age=600 ; includeSubDomains
+      Vary: Accept-Encoding
+      X-Content-Type-Options: nosniff
+      X-XSS-Protection: 1; mode=block
+    status:
+      code: 200
+      message: OK
+    url: https://www.woolworths.com.au/apis/ui/product/detail/38153
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://www.woolworths.com.au/apis/ui/product/detail/223995
+  response:
+    body:
+      string: "{\"Product\":{\"TileID\":0,\"Stockcode\":223995,\"Barcode\":\"9310140001807\"\
+        ,\"GtinFormat\":13,\"CupPrice\":null,\"InstoreCupPrice\":null,\"CupMeasure\"\
+        :\"100G\",\"CupString\":\"\",\"InstoreCupString\":\"\",\"HasCupPrice\":false,\"\
+        InstoreHasCupPrice\":false,\"Price\":null,\"InstorePrice\":null,\"Name\":\"\
+        Sunrice Jasmine Rice Thai\",\"UrlFriendlyName\":\"sunrice-jasmine-rice-thai\"\
+        ,\"Description\":\" Sunrice Jasmine Rice Thai 5kg\",\"SmallImageFile\":\"\
+        https://cdn0.woolworths.media/content/wowproductimages/small/223995.jpg\"\
+        ,\"MediumImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/medium/223995.jpg\"\
+        ,\"LargeImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/large/223995.jpg\"\
+        ,\"IsNew\":false,\"IsOnSpecial\":false,\"InstoreIsOnSpecial\":false,\"IsEdrSpecial\"\
+        :false,\"SavingsAmount\":null,\"InstoreSavingsAmount\":null,\"WasPrice\":0,\"\
+        InstoreWasPrice\":0,\"QuantityInTrolley\":0,\"Unit\":\"Each\",\"MinimumQuantity\"\
+        :1,\"HasBeenBoughtBefore\":false,\"IsInTrolley\":false,\"Source\":\"ProductDetail\"\
+        ,\"SupplyLimit\":1,\"IsRanged\":false,\"IsInStock\":true,\"PackageSize\":\"\
+        5kg\",\"IsPmDelivery\":false,\"IsForCollection\":false,\"IsForDelivery\":false,\"\
+        IsForExpress\":false,\"ProductRestrictionMessage\":null,\"ProductWarningMessage\"\
+        :null,\"CentreTag\":{\"TagContent\":null,\"TagLink\":null,\"FallbackText\"\
+        :null,\"TagType\":\"None\"},\"IsCentreTag\":false,\"ImageTag\":{\"TagContent\"\
+        :null,\"TagLink\":null,\"FallbackText\":\"\",\"TagType\":\"None\"},\"HeaderTag\"\
+        :null,\"HasHeaderTag\":false,\"UnitWeightInGrams\":5000,\"SupplyLimitMessage\"\
+        :\"'Sunrice Jasmine Rice Thai' has a supply limit of 1. The quantity in your\
+        \ cart has been reduced accordingly. To purchase a larger quantity, please\
+        \ contact us on 1800 000 610. Please note we do not supply trade orders.\"\
+        ,\"SmallFormatDescription\":\"Sunrice Jasmine Rice Thai\",\"FullDescription\"\
+        :\"Sunrice Jasmine Rice Thai\",\"IsAvailable\":false,\"InstoreIsAvailable\"\
+        :false,\"IsPurchasable\":false,\"InstoreIsPurchasable\":false,\"AgeRestricted\"\
+        :false,\"DisplayQuantity\":1,\"RichDescription\":\"<div><strong><em>In order\
+        \ to support as many customers as possible, rice packs of 2kg and above are\
+        \ limited to 1 per order.<br>We apologise for the inconvenience and thank\
+        \ you for your patience.</em></strong></div><br><br><p>SunRice Australian\
+        \ Jasmine Fragrant Rice is delicately aromatic and fluffy. </p><p><span style=\\\
+        \"background-color: transparent;\\\">Long, slender, Fragrant grains define\
+        \ this classic rice variety. When cooked,the grains display a delicate Fragrance.\
+        \ Jasmine is the preferred rice in Southeast Asian cooking.</span><br/></p><p>The\
+        \ heart of Thai cuisine.</p><p>Gluten free.</p>\",\"IsDeliveryPass\":false,\"\
+        HideWasSavedPrice\":false,\"SapCategories\":{\"SapDepartmentName\":\"GROCERIES\"\
+        ,\"SapCategoryName\":\"PASTA / RICE\",\"SapSubCategoryName\":\"RICE\",\"SapSegmentName\"\
+        :\"RICE - JASMINE\"},\"Brand\":\"sunrice\",\"FooterTag\":{\"TagContent\":null,\"\
+        TagLink\":null,\"FallbackText\":null,\"TagType\":\"None\"},\"IsFooterEnabled\"\
+        :false,\"Diagnostics\":\"0\",\"IsBundle\":false,\"IsInFamily\":false,\"ChildProducts\"\
+        :[],\"UrlOverride\":null,\"AdditionalAttributes\":{\"sapdepartmentname\":\"\
+        GROCERIES\",\"sapdepartmentno\":\"5\",\"sapcategoryname\":\"PASTA / RICE\"\
+        ,\"sapcategoryno\":\"59\",\"sapsubcategoryname\":\"RICE\",\"sapsubcategoryno\"\
+        :\"75\",\"sapsegmentname\":\"RICE - JASMINE\",\"sapsegmentno\":\"9\",\"specialsgroupid\"\
+        :null,\"PiesProductDepartmentNodeId\":\"1_39FD49C\",\"PiesProductDepartmentsjson\"\
+        :\"[{\\\"Id\\\":\\\"1_39FD49C\\\",\\\"Description\\\":\\\"Pantry\\\"}]\",\"\
+        piesdepartmentnamesjson\":\"[\\\"Pantry\\\"]\",\"piescategorynamesjson\":\"\
+        [\\\"Pasta, Rice & Grains\\\"]\",\"piessubcategorynamesjson\":\"[\\\"Rice\\\
+        \"]\",\"servingsize-total-nip\":null,\"servingsperpack-total-nip\":null,\"\
+        microwaveable\":\"False\",\"ovencook\":\"False\",\"vegetarian\":\"False\"\
+        ,\"freezable\":\"False\",\"containsnuts\":\"False\",\"containsgluten\":\"\
+        False\",\"description\":\"<div><strong><em>In order to support as many customers\
+        \ as possible, rice packs of 2kg and above are limited to 1 per order.<br>We\
+        \ apologise for the inconvenience and thank you for your patience.</em></strong></div><br><br><p>SunRice\
+        \ Australian Jasmine Fragrant Rice is delicately aromatic and fluffy. </p><p><span\
+        \ style=\\\"background-color: transparent;\\\">Long, slender, Fragrant grains\
+        \ define this classic rice variety. When cooked,the grains display a delicate\
+        \ Fragrance. Jasmine is the preferred rice in Southeast Asian cooking.</span><br/></p><p>The\
+        \ heart of Thai cuisine.</p><p>Gluten free.</p>\",\"ingredients\":\"Australian\
+        \  Milled Jasmine Rice.\",\"nutritionalinformation\":\"{\\\"Name\\\":\\\"\
+        Nutritional Information\\\",\\\"Attributes\\\":[{\\\"Id\\\":705,\\\"Name\\\
+        \":\\\"Carbohydrate Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"\
+        77.0g\\\",\\\"Description\\\":\\\"Carbohydrate Quantity Per 100g - Total -\
+        \ NIP\\\",\\\"SortOrder\\\":83},{\\\"Id\\\":706,\\\"Name\\\":\\\"Carbohydrate\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"53.9g\\\",\\\"Description\\\
+        \":\\\"Carbohydrate Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :87},{\\\"Id\\\":759,\\\"Name\\\":\\\"Energy kJ Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"1490kJ\\\",\\\"Description\\\":\\\"Energy kJ\
+        \ Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":239},{\\\"Id\\\":760,\\\
+        \"Name\\\":\\\"Energy kJ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\"\
+        :\\\"1040kJ\\\",\\\"Description\\\":\\\"Energy kJ Quantity Per Serve - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":243},{\\\"Id\\\":253,\\\"Name\\\":\\\"Fat Saturated\
+        \ Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\
+        \":\\\"Fat Saturated Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\"\
+        :251},{\\\"Id\\\":258,\\\"Name\\\":\\\"Fat Saturated Quantity Per Serve -\
+        \ Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Fat Saturated\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":255},{\\\"Id\\\"\
+        :764,\\\"Name\\\":\\\"Fat Total Quantity Per 100g - Total - NIP\\\",\\\"Value\\\
+        \":\\\"1.0g\\\",\\\"Description\\\":\\\"Fat Total Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":263},{\\\"Id\\\":264,\\\"Name\\\":\\\"Fat Total\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\
+        \":\\\"Fat Total Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":267},{\\\
+        \"Id\\\":878,\\\"Name\\\":\\\"Protein Quantity Per 100g - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"7.8g\\\",\\\"Description\\\":\\\"Protein Quantity Per 100g\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":587},{\\\"Id\\\":882,\\\"Name\\\":\\\
+        \"Protein Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"5.5g\\\"\
+        ,\\\"Description\\\":\\\"Protein Quantity Per Serve - Total - NIP\\\",\\\"\
+        SortOrder\\\":591},{\\\"Id\\\":477,\\\"Name\\\":\\\"Serving Size - Total -\
+        \ NIP\\\",\\\"Value\\\":\\\"70g (Approximately 1/3 metric cup uncooked rice)\\\
+        \",\\\"Description\\\":\\\"Serving Size - Total - NIP\\\",\\\"SortOrder\\\"\
+        :607},{\\\"Id\\\":544,\\\"Name\\\":\\\"Servings Per Pack - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"about71\\\",\\\"Description\\\":\\\"Servings Per Pack -\
+        \ Total - NIP\\\",\\\"SortOrder\\\":611},{\\\"Id\\\":491,\\\"Name\\\":\\\"\
+        Sodium Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"<5mg\\\",\\\"\
+        Description\\\":\\\"Sodium Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\
+        \":623},{\\\"Id\\\":495,\\\"Name\\\":\\\"Sodium Quantity Per Serve - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"<5mg\\\",\\\"Description\\\":\\\"Sodium Quantity\
+        \ Per Serve - Total - NIP\\\",\\\"SortOrder\\\":627},{\\\"Id\\\":907,\\\"\
+        Name\\\":\\\"Sugars Quantity Per 100g - Prefix - NIP\\\",\\\"Value\\\":\\\"\
+        <\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g - Prefix - NIP\\\"\
+        ,\\\"SortOrder\\\":645},{\\\"Id\\\":908,\\\"Name\\\":\\\"Sugars Quantity Per\
+        \ 100g - SuffixUnits - NIP\\\",\\\"Value\\\":\\\"g\\\",\\\"Description\\\"\
+        :\\\"Sugars Quantity Per 100g - SuffixUnits - NIP\\\",\\\"SortOrder\\\":646},{\\\
+        \"Id\\\":909,\\\"Name\\\":\\\"Sugars Quantity Per 100g - Total - NIP\\\",\\\
+        \"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g -\
+        \ Total - NIP\\\",\\\"SortOrder\\\":647},{\\\"Id\\\":910,\\\"Name\\\":\\\"\
+        Sugars Quantity Per 100g - ValueWord - NIP\\\",\\\"Value\\\":\\\"1\\\",\\\"\
+        Description\\\":\\\"Sugars Quantity Per 100g - ValueWord - NIP\\\",\\\"SortOrder\\\
+        \":648},{\\\"Id\\\":504,\\\"Name\\\":\\\"Sugars Quantity Per Serve - Prefix\
+        \ - NIP\\\",\\\"Value\\\":\\\"<\\\",\\\"Description\\\":\\\"Sugars Quantity\
+        \ Per Serve - Prefix - NIP\\\",\\\"SortOrder\\\":649},{\\\"Id\\\":911,\\\"\
+        Name\\\":\\\"Sugars Quantity Per Serve - SuffixUnits - NIP\\\",\\\"Value\\\
+        \":\\\"g\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve - SuffixUnits\
+        \ - NIP\\\",\\\"SortOrder\\\":650},{\\\"Id\\\":912,\\\"Name\\\":\\\"Sugars\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":651},{\\\
+        \"Id\\\":572,\\\"Name\\\":\\\"Sugars Quantity Per Serve - ValueWord - NIP\\\
+        \",\\\"Value\\\":\\\"1\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve\
+        \ - ValueWord - NIP\\\",\\\"SortOrder\\\":652}]}\",\"storageinstructions\"\
+        :\"Store in a cool dry place out of sunlight.\",\"usageinstructions\":null,\"\
+        brand\":\"sunrice\",\"manufacturer\":null,\"countryoforigin\":null,\"productheightmm\"\
+        :null,\"productwidthmm\":null,\"productdepthmm\":null,\"wool_productpackaging\"\
+        :null,\"recyclableinformation\":null,\"importantinformation\":null,\"allergencontains\"\
+        :null,\"allergenmaybepresent\":null,\"allergystatement\":\"Lactose Free\"\
+        ,\"lifestyleanddietarystatement\":\"Vegan\",\"lifestyleclaim\":null,\"wool_dietaryclaim\"\
+        :\"Low in Salt, Low Fat\",\"boxedcontents\":null,\"suitablefor\":null,\"fragrance\"\
+        :null,\"colour\":null,\"antioxidant\":\"False\",\"addedvitaminsandminerals\"\
+        :\"False\",\"bpafree\":\"False\",\"sulfatefree\":\"False\",\"parabenfree\"\
+        :\"False\",\"claims\":null,\"alcoholfree\":null,\"anti-dandruff\":null,\"\
+        dermatologicallyapproved\":null,\"dermatologistrecommended\":null,\"dermatologisttested\"\
+        :null,\"fragrance-free\":null,\"haircolour\":null,\"hairtype\":null,\"hypo-allergenic\"\
+        :null,\"non-comedogenic\":null,\"oilfree\":null,\"ophthalmologistapproved\"\
+        :null,\"ophthalmologisttested\":null,\"paba-free\":null,\"skincondition\"\
+        :null,\"skintype\":null,\"soap-free\":null,\"spf\":null,\"sweatresistant\"\
+        :null,\"timer\":null,\"waterresistant\":null,\"phbalanced\":null,\"antiseptic\"\
+        :\"False\",\"antibacterial\":\"False\",\"activeconstituents\":null,\"contains\"\
+        :null,\"microwavesafe\":\"False\",\"productimagecount\":\"2\",\"friendlydisclaimer\"\
+        :null,\"productimages\":\"223995.jpg,223995_2.jpg\",\"healthstarrating\":\"\
+        0\",\"tgawarnings\":null,\"tgawarning\":null},\"DetailsImagePaths\":[\"https://cdn0.woolworths.media/content/wowproductimages/large/223995.jpg\"\
+        ,\"https://cdn0.woolworths.media/content/wowproductimages/large/223995_2.jpg\"\
+        ],\"Variety\":\"thai\",\"Rating\":{\"ReviewCount\":0,\"RatingCount\":0,\"\
+        OneStarCount\":0,\"TwoStarCount\":0,\"ThreeStarCount\":0,\"FourStarCount\"\
+        :0,\"FiveStarCount\":0,\"Average\":0,\"OneStarPercentage\":0,\"TwoStarPercentage\"\
+        :0,\"ThreeStarPercentage\":0,\"FourStarPercentage\":0,\"FiveStarPercentage\"\
+        :0},\"IsSponsoredAd\":false,\"AdID\":null,\"AdIndex\":null},\"Nutrition\"\
+        :null,\"VideoUrl\":null,\"PrimaryCategory\":{\"Department\":\"rice, noodles\
+        \ & pasta\",\"Aisle\":\"rice\",\"VisualShoppingAisleId\":3,\"DisplayOrder\"\
+        :41,\"OverrideName\":null,\"Instance\":\"Alpha\"},\"AdditionalAttributes\"\
+        :{\"sapdepartmentname\":\"GROCERIES\",\"sapdepartmentno\":\"5\",\"sapcategoryname\"\
+        :\"PASTA / RICE\",\"sapcategoryno\":\"59\",\"sapsubcategoryname\":\"RICE\"\
+        ,\"sapsubcategoryno\":\"75\",\"sapsegmentname\":\"RICE - JASMINE\",\"sapsegmentno\"\
+        :\"9\",\"specialsgroupid\":null,\"PiesProductDepartmentNodeId\":\"1_39FD49C\"\
+        ,\"PiesProductDepartmentsjson\":\"[{\\\"Id\\\":\\\"1_39FD49C\\\",\\\"Description\\\
+        \":\\\"Pantry\\\"}]\",\"piesdepartmentnamesjson\":\"[\\\"Pantry\\\"]\",\"\
+        piescategorynamesjson\":\"[\\\"Pasta, Rice & Grains\\\"]\",\"piessubcategorynamesjson\"\
+        :\"[\\\"Rice\\\"]\",\"servingsize-total-nip\":null,\"servingsperpack-total-nip\"\
+        :null,\"microwaveable\":\"False\",\"ovencook\":\"False\",\"vegetarian\":\"\
+        False\",\"freezable\":\"False\",\"containsnuts\":\"False\",\"containsgluten\"\
+        :\"False\",\"description\":\"<div><strong><em>In order to support as many\
+        \ customers as possible, rice packs of 2kg and above are limited to 1 per\
+        \ order.<br>We apologise for the inconvenience and thank you for your patience.</em></strong></div><br><br><p>SunRice\
+        \ Australian Jasmine Fragrant Rice is delicately aromatic and fluffy. </p><p><span\
+        \ style=\\\"background-color: transparent;\\\">Long, slender, Fragrant grains\
+        \ define this classic rice variety. When cooked,the grains display a delicate\
+        \ Fragrance. Jasmine is the preferred rice in Southeast Asian cooking.</span><br/></p><p>The\
+        \ heart of Thai cuisine.</p><p>Gluten free.</p>\",\"ingredients\":\"Australian\
+        \  Milled Jasmine Rice.\",\"nutritionalinformation\":\"{\\\"Name\\\":\\\"\
+        Nutritional Information\\\",\\\"Attributes\\\":[{\\\"Id\\\":705,\\\"Name\\\
+        \":\\\"Carbohydrate Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"\
+        77.0g\\\",\\\"Description\\\":\\\"Carbohydrate Quantity Per 100g - Total -\
+        \ NIP\\\",\\\"SortOrder\\\":83},{\\\"Id\\\":706,\\\"Name\\\":\\\"Carbohydrate\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"53.9g\\\",\\\"Description\\\
+        \":\\\"Carbohydrate Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :87},{\\\"Id\\\":759,\\\"Name\\\":\\\"Energy kJ Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"1490kJ\\\",\\\"Description\\\":\\\"Energy kJ\
+        \ Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":239},{\\\"Id\\\":760,\\\
+        \"Name\\\":\\\"Energy kJ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\"\
+        :\\\"1040kJ\\\",\\\"Description\\\":\\\"Energy kJ Quantity Per Serve - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":243},{\\\"Id\\\":253,\\\"Name\\\":\\\"Fat Saturated\
+        \ Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\
+        \":\\\"Fat Saturated Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\"\
+        :251},{\\\"Id\\\":258,\\\"Name\\\":\\\"Fat Saturated Quantity Per Serve -\
+        \ Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Fat Saturated\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":255},{\\\"Id\\\"\
+        :764,\\\"Name\\\":\\\"Fat Total Quantity Per 100g - Total - NIP\\\",\\\"Value\\\
+        \":\\\"1.0g\\\",\\\"Description\\\":\\\"Fat Total Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":263},{\\\"Id\\\":264,\\\"Name\\\":\\\"Fat Total\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\
+        \":\\\"Fat Total Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":267},{\\\
+        \"Id\\\":878,\\\"Name\\\":\\\"Protein Quantity Per 100g - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"7.8g\\\",\\\"Description\\\":\\\"Protein Quantity Per 100g\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":587},{\\\"Id\\\":882,\\\"Name\\\":\\\
+        \"Protein Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"5.5g\\\"\
+        ,\\\"Description\\\":\\\"Protein Quantity Per Serve - Total - NIP\\\",\\\"\
+        SortOrder\\\":591},{\\\"Id\\\":477,\\\"Name\\\":\\\"Serving Size - Total -\
+        \ NIP\\\",\\\"Value\\\":\\\"70g (Approximately 1/3 metric cup uncooked rice)\\\
+        \",\\\"Description\\\":\\\"Serving Size - Total - NIP\\\",\\\"SortOrder\\\"\
+        :607},{\\\"Id\\\":544,\\\"Name\\\":\\\"Servings Per Pack - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"about71\\\",\\\"Description\\\":\\\"Servings Per Pack -\
+        \ Total - NIP\\\",\\\"SortOrder\\\":611},{\\\"Id\\\":491,\\\"Name\\\":\\\"\
+        Sodium Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"<5mg\\\",\\\"\
+        Description\\\":\\\"Sodium Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\
+        \":623},{\\\"Id\\\":495,\\\"Name\\\":\\\"Sodium Quantity Per Serve - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"<5mg\\\",\\\"Description\\\":\\\"Sodium Quantity\
+        \ Per Serve - Total - NIP\\\",\\\"SortOrder\\\":627},{\\\"Id\\\":907,\\\"\
+        Name\\\":\\\"Sugars Quantity Per 100g - Prefix - NIP\\\",\\\"Value\\\":\\\"\
+        <\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g - Prefix - NIP\\\"\
+        ,\\\"SortOrder\\\":645},{\\\"Id\\\":908,\\\"Name\\\":\\\"Sugars Quantity Per\
+        \ 100g - SuffixUnits - NIP\\\",\\\"Value\\\":\\\"g\\\",\\\"Description\\\"\
+        :\\\"Sugars Quantity Per 100g - SuffixUnits - NIP\\\",\\\"SortOrder\\\":646},{\\\
+        \"Id\\\":909,\\\"Name\\\":\\\"Sugars Quantity Per 100g - Total - NIP\\\",\\\
+        \"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g -\
+        \ Total - NIP\\\",\\\"SortOrder\\\":647},{\\\"Id\\\":910,\\\"Name\\\":\\\"\
+        Sugars Quantity Per 100g - ValueWord - NIP\\\",\\\"Value\\\":\\\"1\\\",\\\"\
+        Description\\\":\\\"Sugars Quantity Per 100g - ValueWord - NIP\\\",\\\"SortOrder\\\
+        \":648},{\\\"Id\\\":504,\\\"Name\\\":\\\"Sugars Quantity Per Serve - Prefix\
+        \ - NIP\\\",\\\"Value\\\":\\\"<\\\",\\\"Description\\\":\\\"Sugars Quantity\
+        \ Per Serve - Prefix - NIP\\\",\\\"SortOrder\\\":649},{\\\"Id\\\":911,\\\"\
+        Name\\\":\\\"Sugars Quantity Per Serve - SuffixUnits - NIP\\\",\\\"Value\\\
+        \":\\\"g\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve - SuffixUnits\
+        \ - NIP\\\",\\\"SortOrder\\\":650},{\\\"Id\\\":912,\\\"Name\\\":\\\"Sugars\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":651},{\\\
+        \"Id\\\":572,\\\"Name\\\":\\\"Sugars Quantity Per Serve - ValueWord - NIP\\\
+        \",\\\"Value\\\":\\\"1\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve\
+        \ - ValueWord - NIP\\\",\\\"SortOrder\\\":652}]}\",\"storageinstructions\"\
+        :\"Store in a cool dry place out of sunlight.\",\"usageinstructions\":null,\"\
+        brand\":\"sunrice\",\"manufacturer\":null,\"countryoforigin\":null,\"productheightmm\"\
+        :null,\"productwidthmm\":null,\"productdepthmm\":null,\"wool_productpackaging\"\
+        :null,\"recyclableinformation\":null,\"importantinformation\":null,\"allergencontains\"\
+        :null,\"allergenmaybepresent\":null,\"allergystatement\":\"Lactose Free\"\
+        ,\"lifestyleanddietarystatement\":\"Vegan\",\"lifestyleclaim\":null,\"wool_dietaryclaim\"\
+        :\"Low in Salt, Low Fat\",\"boxedcontents\":null,\"suitablefor\":null,\"fragrance\"\
+        :null,\"colour\":null,\"antioxidant\":\"False\",\"addedvitaminsandminerals\"\
+        :\"False\",\"bpafree\":\"False\",\"sulfatefree\":\"False\",\"parabenfree\"\
+        :\"False\",\"claims\":null,\"alcoholfree\":null,\"anti-dandruff\":null,\"\
+        dermatologicallyapproved\":null,\"dermatologistrecommended\":null,\"dermatologisttested\"\
+        :null,\"fragrance-free\":null,\"haircolour\":null,\"hairtype\":null,\"hypo-allergenic\"\
+        :null,\"non-comedogenic\":null,\"oilfree\":null,\"ophthalmologistapproved\"\
+        :null,\"ophthalmologisttested\":null,\"paba-free\":null,\"skincondition\"\
+        :null,\"skintype\":null,\"soap-free\":null,\"spf\":null,\"sweatresistant\"\
+        :null,\"timer\":null,\"waterresistant\":null,\"phbalanced\":null,\"antiseptic\"\
+        :\"False\",\"antibacterial\":\"False\",\"activeconstituents\":null,\"contains\"\
+        :null,\"microwavesafe\":\"False\",\"productimagecount\":\"2\",\"friendlydisclaimer\"\
+        :null,\"productimages\":\"223995.jpg,223995_2.jpg\",\"healthstarrating\":\"\
+        0\",\"tgawarnings\":null,\"tgawarning\":null},\"TgaAttributes\":{\"Directions\"\
+        :null,\"ProductWarnings\":null},\"DetailsImagePaths\":[\"https://cdn0.woolworths.media/content/wowproductimages/large/223995.jpg\"\
+        ,\"https://cdn0.woolworths.media/content/wowproductimages/large/223995_2.jpg\"\
+        ],\"NutritionalInformation\":[{\"Name\":\"Energy\",\"Values\":{\"Avg Qty Per\
+        \ Serving\":\"1040kJ\",\"Avg Qty Per 100g\":\"1490kJ\"},\"ServingSize\":\"\
+        70g (Approximately 1/3 metric cup uncooked rice)\",\"ServingsPerPack\":\"\
+        about71\"},{\"Name\":\"Protein\",\"Values\":{\"Avg Qty Per Serving\":\"5.5g\"\
+        ,\"Avg Qty Per 100g\":\"7.8g\"},\"ServingSize\":\"70g (Approximately 1/3 metric\
+        \ cup uncooked rice)\",\"ServingsPerPack\":\"about71\"},{\"Name\":\"Fat, total\"\
+        ,\"Values\":{\"Avg Qty Per Serving\":\"<1g\",\"Avg Qty Per 100g\":\"1.0g\"\
+        },\"ServingSize\":\"70g (Approximately 1/3 metric cup uncooked rice)\",\"\
+        ServingsPerPack\":\"about71\"},{\"Name\":\"\u2013 saturated\",\"Values\":{\"\
+        Avg Qty Per Serving\":\"<1g\",\"Avg Qty Per 100g\":\"<1g\"},\"ServingSize\"\
+        :\"70g (Approximately 1/3 metric cup uncooked rice)\",\"ServingsPerPack\"\
+        :\"about71\"},{\"Name\":\"Carbohydrate\",\"Values\":{\"Avg Qty Per Serving\"\
+        :\"53.9g\",\"Avg Qty Per 100g\":\"77.0g\"},\"ServingSize\":\"70g (Approximately\
+        \ 1/3 metric cup uncooked rice)\",\"ServingsPerPack\":\"about71\"},{\"Name\"\
+        :\"\u2013 sugars\",\"Values\":{\"Avg Qty Per Serving\":\"<1g\",\"Avg Qty Per\
+        \ 100g\":\"<1g\"},\"ServingSize\":\"70g (Approximately 1/3 metric cup uncooked\
+        \ rice)\",\"ServingsPerPack\":\"about71\"},{\"Name\":\"Sodium\",\"Values\"\
+        :{\"Avg Qty Per Serving\":\"<5mg\",\"Avg Qty Per 100g\":\"<5mg\"},\"ServingSize\"\
+        :\"70g (Approximately 1/3 metric cup uncooked rice)\",\"ServingsPerPack\"\
+        :\"about71\"}],\"RichRelevancePlacements\":[{\"placement_name\":null,\"message\"\
+        :null,\"Products\":[],\"Items\":[],\"StockcodesForDiscover\":[]}],\"IsTobacco\"\
+        :false,\"CountryOfOriginLabel\":{\"PngImageFile\":\"https://cdn0.woolworths.media/content/countryoforiginlabelling/b30db8e7-2a70-43c8-8115-b2d6e0805210.png\"\
+        ,\"SvgImageFile\":\"https://cdn0.woolworths.media/content/countryoforiginlabelling/b30db8e7-2a70-43c8-8115-b2d6e0805210.svg\"\
+        ,\"AltText\":\"Grown in Australia\",\"CountryOfOrigin\":\"Australia\",\"IngredientPercentage\"\
+        :\"100\",\"Disclaimer\":null}}"
+    headers:
+      Access-Control-Allow-Headers: Content-type
+      Access-Control-Allow-Origin: '*'
+      Access-Control-Expose-Headers: Request-Context
+      Cache-Control: no-cache, no-store, must-revalidate
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Length: '4160'
+      Content-Type: application/json; charset=utf-8
+      Date: Fri, 13 Mar 2020 04:40:59 GMT
+      Expires: '-1'
+      Pragma: no-cache
+      Request-Context: appId=cid-v1:b49612dc-0eb5-452a-a689-7af50f34384a
+      Server-Timing: origin; dur=119
+      Set-Cookie: akaalb_woolworths.com.au=~op=www_woolworths_com_au_ZoneA:PROD-ZoneA|~rv=53~m=PROD-ZoneA:0|~os=43eb3391333cc20efbd7f812851447e6~id=35278c48fa91ee272d3e780bf37400b4;
+        path=/; Secure; SameSite=None
+      Strict-Transport-Security: max-age=600 ; includeSubDomains
+      Vary: Accept-Encoding
+      X-Content-Type-Options: nosniff
+      X-XSS-Protection: 1; mode=block
+    status:
+      code: 200
+      message: OK
+    url: https://www.woolworths.com.au/apis/ui/product/detail/223995
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://www.woolworths.com.au/apis/ui/product/detail/761072
+  response:
+    body:
+      string: "{\"Product\":{\"TileID\":0,\"Stockcode\":761072,\"Barcode\":\"9332991001362\"\
+        ,\"GtinFormat\":13,\"CupPrice\":null,\"InstoreCupPrice\":null,\"CupMeasure\"\
+        :\"1L\",\"CupString\":\"\",\"InstoreCupString\":\"\",\"HasCupPrice\":false,\"\
+        InstoreHasCupPrice\":false,\"Price\":null,\"InstorePrice\":null,\"Name\":\"\
+        Nudie Nothing But Coconut Water Straight Up\",\"UrlFriendlyName\":\"nudie-nothing-but-coconut-water-straight-up\"\
+        ,\"Description\":\" Nudie Nothing But Coconut<br>Water Straight Up 1l\",\"\
+        SmallImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/small/761072.jpg\"\
+        ,\"MediumImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/medium/761072.jpg\"\
+        ,\"LargeImageFile\":\"https://cdn0.woolworths.media/content/wowproductimages/large/761072.jpg\"\
+        ,\"IsNew\":false,\"IsOnSpecial\":false,\"InstoreIsOnSpecial\":false,\"IsEdrSpecial\"\
+        :false,\"SavingsAmount\":null,\"InstoreSavingsAmount\":null,\"WasPrice\":0,\"\
+        InstoreWasPrice\":0,\"QuantityInTrolley\":0,\"Unit\":\"Each\",\"MinimumQuantity\"\
+        :1,\"HasBeenBoughtBefore\":false,\"IsInTrolley\":false,\"Source\":\"ProductDetail\"\
+        ,\"SupplyLimit\":36,\"IsRanged\":false,\"IsInStock\":true,\"PackageSize\"\
+        :\"1l\",\"IsPmDelivery\":false,\"IsForCollection\":false,\"IsForDelivery\"\
+        :false,\"IsForExpress\":false,\"ProductRestrictionMessage\":null,\"ProductWarningMessage\"\
+        :null,\"CentreTag\":{\"TagContent\":\"<span style=\\\"COLOR: #e2001a\\\">\
+        \ Was $5.00 03/12/2018</span>\",\"TagLink\":null,\"FallbackText\":null,\"\
+        TagType\":\"Html\"},\"IsCentreTag\":true,\"ImageTag\":{\"TagContent\":null,\"\
+        TagLink\":null,\"FallbackText\":\"\",\"TagType\":\"None\"},\"HeaderTag\":{\"\
+        BackgroundColor\":\"#fff\",\"BorderColor\":\"#c20016\",\"TextColor\":\"#c20016\"\
+        ,\"Content\":\"<span class=\\\"u-semibold\\\">Prices dropped</span>\",\"TagLink\"\
+        :null,\"Promotion\":\"PriceDropped\"},\"HasHeaderTag\":true,\"UnitWeightInGrams\"\
+        :1000,\"SupplyLimitMessage\":\"'Nudie Nothing But Coconut Water Straight Up'\
+        \ has a supply limit of 36. The quantity in your cart has been reduced accordingly.\
+        \ To purchase a larger quantity, please contact us on 1800 000 610. Please\
+        \ note we do not supply trade orders.\",\"SmallFormatDescription\":\"Nudie\
+        \ Nothing But Coconut Water Straight Up\",\"FullDescription\":\"Nudie Nothing\
+        \ But Coconut Water Straight Up\",\"IsAvailable\":false,\"InstoreIsAvailable\"\
+        :false,\"IsPurchasable\":false,\"InstoreIsPurchasable\":false,\"AgeRestricted\"\
+        :false,\"DisplayQuantity\":1,\"RichDescription\":\"One day, the Nudie fruit\
+        \ (especially the wild outdoorsy types) decided to sail into the sunset and\
+        \ seek out exotic, undiscovered fruit to invite home. After many hair-raising\
+        \ adventures (for the kiwi fruit at least) they finally met a tribe of young,\
+        \ green coconuts who, unlike their brown elders, made 100% pure, hydrating,\
+        \ all-natural, thirst-quenching coconut water! \\\"Perfect!\\\" said the fruit.\
+        \ \\\"It sure is!\\\" said the coconuts. Ah, love at first sight.\\n\\nA slurpable\
+        \ supply of potassium (an essential electrolyte).\",\"IsDeliveryPass\":false,\"\
+        HideWasSavedPrice\":false,\"SapCategories\":{\"SapDepartmentName\":\"FRESH\
+        \ CONVENIENCE\",\"SapCategoryName\":\"DAIRY - CHILLED JUICES & DRINKS\",\"\
+        SapSubCategoryName\":\"DAIRY - CHILLED JUICES & DRINKS\",\"SapSegmentName\"\
+        :\"PREMIUM JUICE\"},\"Brand\":\"nudie\",\"FooterTag\":{\"TagContent\":\"<div\
+        \ class=\\\"productTag-pricedropped\\\" style=\\\"\\r\\nheight:46px;\\r\\\
+        nposition:absolute;\\r\\ntop:-4px;\\r\\nleft:0;\\r\\nwidth:100%;\\r\\nbackground:white;\\\
+        r\\noutline: 1px solid #c20016;\\r\\ntext-align:center;\\\">\\r\\n\\r\\n<img\
+        \ src=\\\"https://cdn0.woolworths.media/content/content/pricedropped-footer-transparent.png\\\
+        \" width=\\\"204px\\\" height=\\\"16px\\\" alt=\\\"Price Dropped\\\" style=\\\
+        \"display:inline-block;margin-top:15px;max-width: 100%;\\\">\\r\\n</div>\"\
+        ,\"TagLink\":null,\"FallbackText\":null,\"TagType\":\"Html\"},\"IsFooterEnabled\"\
+        :true,\"Diagnostics\":\"0\",\"IsBundle\":false,\"IsInFamily\":false,\"ChildProducts\"\
+        :[],\"UrlOverride\":null,\"AdditionalAttributes\":{\"sapdepartmentname\":\"\
+        FRESH CONVENIENCE\",\"sapdepartmentno\":\"10\",\"sapcategoryname\":\"DAIRY\
+        \ - CHILLED JUICES & DRINKS\",\"sapcategoryno\":\"92\",\"sapsubcategoryname\"\
+        :\"DAIRY - CHILLED JUICES & DRINKS\",\"sapsubcategoryno\":\"918\",\"sapsegmentname\"\
+        :\"PREMIUM JUICE\",\"sapsegmentno\":\"8\",\"specialsgroupid\":null,\"PiesProductDepartmentNodeId\"\
+        :\"1_5AF3A0A\",\"PiesProductDepartmentsjson\":\"[{\\\"Id\\\":\\\"1_5AF3A0A\\\
+        \",\\\"Description\\\":\\\"Drinks\\\"}]\",\"piesdepartmentnamesjson\":\"[\\\
+        \"Drinks\\\"]\",\"piescategorynamesjson\":\"[\\\"Cordials, Juices & Iced Teas\\\
+        \"]\",\"piessubcategorynamesjson\":\"[\\\"Chilled Juices\\\"]\",\"servingsize-total-nip\"\
+        :null,\"servingsperpack-total-nip\":null,\"microwaveable\":\"False\",\"ovencook\"\
+        :\"False\",\"vegetarian\":\"False\",\"freezable\":\"False\",\"containsnuts\"\
+        :\"False\",\"containsgluten\":\"False\",\"description\":\"One day, the Nudie\
+        \ fruit (especially the wild outdoorsy types) decided to sail into the sunset\
+        \ and seek out exotic, undiscovered fruit to invite home. After many hair-raising\
+        \ adventures (for the kiwi fruit at least) they finally met a tribe of young,\
+        \ green coconuts who, unlike their brown elders, made 100% pure, hydrating,\
+        \ all-natural, thirst-quenching coconut water! \\\"Perfect!\\\" said the fruit.\
+        \ \\\"It sure is!\\\" said the coconuts. Ah, love at first sight.\\n\\nA slurpable\
+        \ supply of potassium (an essential electrolyte).\",\"ingredients\":\"Water\
+        \ of 3 5/6 Green Coconuts (100%) and nothing else!\",\"nutritionalinformation\"\
+        :\"{\\\"Name\\\":\\\"Nutritional Information\\\",\\\"Attributes\\\":[{\\\"\
+        Id\\\":705,\\\"Name\\\":\\\"Carbohydrate Quantity Per 100g - Total - NIP\\\
+        \",\\\"Value\\\":\\\"4.7g\\\",\\\"Description\\\":\\\"Carbohydrate Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":83},{\\\"Id\\\":706,\\\"Name\\\
+        \":\\\"Carbohydrate Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"\
+        11.8g\\\",\\\"Description\\\":\\\"Carbohydrate Quantity Per Serve - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":87},{\\\"Id\\\":759,\\\"Name\\\":\\\"Energy\
+        \ kJ Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"82kJ\\\",\\\"Description\\\
+        \":\\\"Energy kJ Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":239},{\\\
+        \"Id\\\":760,\\\"Name\\\":\\\"Energy kJ Quantity Per Serve - Total - NIP\\\
+        \",\\\"Value\\\":\\\"205kJ\\\",\\\"Description\\\":\\\"Energy kJ Quantity\
+        \ Per Serve - Total - NIP\\\",\\\"SortOrder\\\":243},{\\\"Id\\\":253,\\\"\
+        Name\\\":\\\"Fat Saturated Quantity Per 100g - Total - NIP\\\",\\\"Value\\\
+        \":\\\"<1g\\\",\\\"Description\\\":\\\"Fat Saturated Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"SortOrder\\\":251},{\\\"Id\\\":258,\\\"Name\\\":\\\"Fat Saturated\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\
+        \":\\\"Fat Saturated Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :255},{\\\"Id\\\":764,\\\"Name\\\":\\\"Fat Total Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Fat Total Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":263},{\\\"Id\\\":264,\\\"Name\\\
+        \":\\\"Fat Total Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\
+        \",\\\"Description\\\":\\\"Fat Total Quantity Per Serve - Total - NIP\\\"\
+        ,\\\"SortOrder\\\":267},{\\\"Id\\\":878,\\\"Name\\\":\\\"Protein Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\"\
+        :\\\"Protein Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":587},{\\\
+        \"Id\\\":882,\\\"Name\\\":\\\"Protein Quantity Per Serve - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Protein Quantity Per Serve\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":591},{\\\"Id\\\":477,\\\"Name\\\":\\\
+        \"Serving Size - Total - NIP\\\",\\\"Value\\\":\\\"250mL\\\",\\\"Description\\\
+        \":\\\"Serving Size - Total - NIP\\\",\\\"SortOrder\\\":607},{\\\"Id\\\":544,\\\
+        \"Name\\\":\\\"Servings Per Pack - Total - NIP\\\",\\\"Value\\\":\\\"4\\\"\
+        ,\\\"Description\\\":\\\"Servings Per Pack - Total - NIP\\\",\\\"SortOrder\\\
+        \":611},{\\\"Id\\\":491,\\\"Name\\\":\\\"Sodium Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"25mg\\\",\\\"Description\\\":\\\"Sodium Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":623},{\\\"Id\\\":495,\\\"Name\\\
+        \":\\\"Sodium Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"63mg\\\
+        \",\\\"Description\\\":\\\"Sodium Quantity Per Serve - Total - NIP\\\",\\\"\
+        SortOrder\\\":627},{\\\"Id\\\":907,\\\"Name\\\":\\\"Sugars Quantity Per 100g\
+        \ - Prefix - NIP\\\",\\\"Value\\\":\\\"\\\",\\\"Description\\\":\\\"Sugars\
+        \ Quantity Per 100g - Prefix - NIP\\\",\\\"SortOrder\\\":645},{\\\"Id\\\"\
+        :908,\\\"Name\\\":\\\"Sugars Quantity Per 100g - SuffixUnits - NIP\\\",\\\"\
+        Value\\\":\\\"g\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g - SuffixUnits\
+        \ - NIP\\\",\\\"SortOrder\\\":646},{\\\"Id\\\":909,\\\"Name\\\":\\\"Sugars\
+        \ Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"3.5g\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":647},{\\\
+        \"Id\\\":910,\\\"Name\\\":\\\"Sugars Quantity Per 100g - ValueWord - NIP\\\
+        \",\\\"Value\\\":\\\"3.5\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g\
+        \ - ValueWord - NIP\\\",\\\"SortOrder\\\":648},{\\\"Id\\\":504,\\\"Name\\\"\
+        :\\\"Sugars Quantity Per Serve - Prefix - NIP\\\",\\\"Value\\\":\\\"\\\",\\\
+        \"Description\\\":\\\"Sugars Quantity Per Serve - Prefix - NIP\\\",\\\"SortOrder\\\
+        \":649},{\\\"Id\\\":911,\\\"Name\\\":\\\"Sugars Quantity Per Serve - SuffixUnits\
+        \ - NIP\\\",\\\"Value\\\":\\\"g\\\",\\\"Description\\\":\\\"Sugars Quantity\
+        \ Per Serve - SuffixUnits - NIP\\\",\\\"SortOrder\\\":650},{\\\"Id\\\":912,\\\
+        \"Name\\\":\\\"Sugars Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\
+        \"8.8g\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve - Total - NIP\\\
+        \",\\\"SortOrder\\\":651},{\\\"Id\\\":572,\\\"Name\\\":\\\"Sugars Quantity\
+        \ Per Serve - ValueWord - NIP\\\",\\\"Value\\\":\\\"8.8\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per Serve - ValueWord - NIP\\\",\\\"SortOrder\\\":652}]}\"\
+        ,\"storageinstructions\":null,\"usageinstructions\":null,\"brand\":\"nudie\"\
+        ,\"manufacturer\":null,\"countryoforigin\":null,\"productheightmm\":null,\"\
+        productwidthmm\":null,\"productdepthmm\":null,\"wool_productpackaging\":null,\"\
+        recyclableinformation\":null,\"importantinformation\":null,\"allergencontains\"\
+        :null,\"allergenmaybepresent\":null,\"allergystatement\":\"Egg Free\",\"lifestyleanddietarystatement\"\
+        :\"Vegetarian\",\"lifestyleclaim\":null,\"wool_dietaryclaim\":\"Free from\
+        \ artificial flavour. Free from preservatives. No added sugars\",\"boxedcontents\"\
+        :null,\"suitablefor\":null,\"fragrance\":null,\"colour\":null,\"antioxidant\"\
+        :\"False\",\"addedvitaminsandminerals\":\"False\",\"bpafree\":\"False\",\"\
+        sulfatefree\":\"False\",\"parabenfree\":\"False\",\"claims\":null,\"alcoholfree\"\
+        :null,\"anti-dandruff\":null,\"dermatologicallyapproved\":null,\"dermatologistrecommended\"\
+        :null,\"dermatologisttested\":null,\"fragrance-free\":null,\"haircolour\"\
+        :null,\"hairtype\":null,\"hypo-allergenic\":null,\"non-comedogenic\":null,\"\
+        oilfree\":null,\"ophthalmologistapproved\":null,\"ophthalmologisttested\"\
+        :null,\"paba-free\":null,\"skincondition\":null,\"skintype\":null,\"soap-free\"\
+        :null,\"spf\":null,\"sweatresistant\":null,\"timer\":null,\"waterresistant\"\
+        :null,\"phbalanced\":null,\"antiseptic\":\"False\",\"antibacterial\":\"False\"\
+        ,\"activeconstituents\":null,\"contains\":null,\"microwavesafe\":\"False\"\
+        ,\"productimagecount\":\"1\",\"friendlydisclaimer\":null,\"productimages\"\
+        :\"761072.jpg\",\"healthstarrating\":\"0\",\"tgawarnings\":null,\"tgawarning\"\
+        :null},\"DetailsImagePaths\":[\"https://cdn0.woolworths.media/content/wowproductimages/large/761072.jpg\"\
+        ],\"Variety\":\"coconut water straight up\",\"Rating\":{\"ReviewCount\":0,\"\
+        RatingCount\":0,\"OneStarCount\":0,\"TwoStarCount\":0,\"ThreeStarCount\":0,\"\
+        FourStarCount\":0,\"FiveStarCount\":0,\"Average\":0,\"OneStarPercentage\"\
+        :0,\"TwoStarPercentage\":0,\"ThreeStarPercentage\":0,\"FourStarPercentage\"\
+        :0,\"FiveStarPercentage\":0},\"IsSponsoredAd\":false,\"AdID\":null,\"AdIndex\"\
+        :null},\"Nutrition\":null,\"VideoUrl\":null,\"PrimaryCategory\":{\"Department\"\
+        :\"drinks\",\"Aisle\":\"chilled juice\",\"VisualShoppingAisleId\":45,\"DisplayOrder\"\
+        :2,\"OverrideName\":null,\"Instance\":\"Alpha\"},\"AdditionalAttributes\"\
+        :{\"sapdepartmentname\":\"FRESH CONVENIENCE\",\"sapdepartmentno\":\"10\",\"\
+        sapcategoryname\":\"DAIRY - CHILLED JUICES & DRINKS\",\"sapcategoryno\":\"\
+        92\",\"sapsubcategoryname\":\"DAIRY - CHILLED JUICES & DRINKS\",\"sapsubcategoryno\"\
+        :\"918\",\"sapsegmentname\":\"PREMIUM JUICE\",\"sapsegmentno\":\"8\",\"specialsgroupid\"\
+        :null,\"PiesProductDepartmentNodeId\":\"1_5AF3A0A\",\"PiesProductDepartmentsjson\"\
+        :\"[{\\\"Id\\\":\\\"1_5AF3A0A\\\",\\\"Description\\\":\\\"Drinks\\\"}]\",\"\
+        piesdepartmentnamesjson\":\"[\\\"Drinks\\\"]\",\"piescategorynamesjson\":\"\
+        [\\\"Cordials, Juices & Iced Teas\\\"]\",\"piessubcategorynamesjson\":\"[\\\
+        \"Chilled Juices\\\"]\",\"servingsize-total-nip\":null,\"servingsperpack-total-nip\"\
+        :null,\"microwaveable\":\"False\",\"ovencook\":\"False\",\"vegetarian\":\"\
+        False\",\"freezable\":\"False\",\"containsnuts\":\"False\",\"containsgluten\"\
+        :\"False\",\"description\":\"One day, the Nudie fruit (especially the wild\
+        \ outdoorsy types) decided to sail into the sunset and seek out exotic, undiscovered\
+        \ fruit to invite home. After many hair-raising adventures (for the kiwi fruit\
+        \ at least) they finally met a tribe of young, green coconuts who, unlike\
+        \ their brown elders, made 100% pure, hydrating, all-natural, thirst-quenching\
+        \ coconut water! \\\"Perfect!\\\" said the fruit. \\\"It sure is!\\\" said\
+        \ the coconuts. Ah, love at first sight.\\n\\nA slurpable supply of potassium\
+        \ (an essential electrolyte).\",\"ingredients\":\"Water of 3 5/6 Green Coconuts\
+        \ (100%) and nothing else!\",\"nutritionalinformation\":\"{\\\"Name\\\":\\\
+        \"Nutritional Information\\\",\\\"Attributes\\\":[{\\\"Id\\\":705,\\\"Name\\\
+        \":\\\"Carbohydrate Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"\
+        4.7g\\\",\\\"Description\\\":\\\"Carbohydrate Quantity Per 100g - Total -\
+        \ NIP\\\",\\\"SortOrder\\\":83},{\\\"Id\\\":706,\\\"Name\\\":\\\"Carbohydrate\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"11.8g\\\",\\\"Description\\\
+        \":\\\"Carbohydrate Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\"\
+        :87},{\\\"Id\\\":759,\\\"Name\\\":\\\"Energy kJ Quantity Per 100g - Total\
+        \ - NIP\\\",\\\"Value\\\":\\\"82kJ\\\",\\\"Description\\\":\\\"Energy kJ Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":239},{\\\"Id\\\":760,\\\"Name\\\
+        \":\\\"Energy kJ Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"205kJ\\\
+        \",\\\"Description\\\":\\\"Energy kJ Quantity Per Serve - Total - NIP\\\"\
+        ,\\\"SortOrder\\\":243},{\\\"Id\\\":253,\\\"Name\\\":\\\"Fat Saturated Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\"\
+        :\\\"Fat Saturated Quantity Per 100g - Total - NIP\\\",\\\"SortOrder\\\":251},{\\\
+        \"Id\\\":258,\\\"Name\\\":\\\"Fat Saturated Quantity Per Serve - Total - NIP\\\
+        \",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Fat Saturated Quantity\
+        \ Per Serve - Total - NIP\\\",\\\"SortOrder\\\":255},{\\\"Id\\\":764,\\\"\
+        Name\\\":\\\"Fat Total Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\
+        \"<1g\\\",\\\"Description\\\":\\\"Fat Total Quantity Per 100g - Total - NIP\\\
+        \",\\\"SortOrder\\\":263},{\\\"Id\\\":264,\\\"Name\\\":\\\"Fat Total Quantity\
+        \ Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\"\
+        :\\\"Fat Total Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":267},{\\\
+        \"Id\\\":878,\\\"Name\\\":\\\"Protein Quantity Per 100g - Total - NIP\\\"\
+        ,\\\"Value\\\":\\\"<1g\\\",\\\"Description\\\":\\\"Protein Quantity Per 100g\
+        \ - Total - NIP\\\",\\\"SortOrder\\\":587},{\\\"Id\\\":882,\\\"Name\\\":\\\
+        \"Protein Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"<1g\\\",\\\
+        \"Description\\\":\\\"Protein Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\
+        \":591},{\\\"Id\\\":477,\\\"Name\\\":\\\"Serving Size - Total - NIP\\\",\\\
+        \"Value\\\":\\\"250mL\\\",\\\"Description\\\":\\\"Serving Size - Total - NIP\\\
+        \",\\\"SortOrder\\\":607},{\\\"Id\\\":544,\\\"Name\\\":\\\"Servings Per Pack\
+        \ - Total - NIP\\\",\\\"Value\\\":\\\"4\\\",\\\"Description\\\":\\\"Servings\
+        \ Per Pack - Total - NIP\\\",\\\"SortOrder\\\":611},{\\\"Id\\\":491,\\\"Name\\\
+        \":\\\"Sodium Quantity Per 100g - Total - NIP\\\",\\\"Value\\\":\\\"25mg\\\
+        \",\\\"Description\\\":\\\"Sodium Quantity Per 100g - Total - NIP\\\",\\\"\
+        SortOrder\\\":623},{\\\"Id\\\":495,\\\"Name\\\":\\\"Sodium Quantity Per Serve\
+        \ - Total - NIP\\\",\\\"Value\\\":\\\"63mg\\\",\\\"Description\\\":\\\"Sodium\
+        \ Quantity Per Serve - Total - NIP\\\",\\\"SortOrder\\\":627},{\\\"Id\\\"\
+        :907,\\\"Name\\\":\\\"Sugars Quantity Per 100g - Prefix - NIP\\\",\\\"Value\\\
+        \":\\\"\\\",\\\"Description\\\":\\\"Sugars Quantity Per 100g - Prefix - NIP\\\
+        \",\\\"SortOrder\\\":645},{\\\"Id\\\":908,\\\"Name\\\":\\\"Sugars Quantity\
+        \ Per 100g - SuffixUnits - NIP\\\",\\\"Value\\\":\\\"g\\\",\\\"Description\\\
+        \":\\\"Sugars Quantity Per 100g - SuffixUnits - NIP\\\",\\\"SortOrder\\\"\
+        :646},{\\\"Id\\\":909,\\\"Name\\\":\\\"Sugars Quantity Per 100g - Total -\
+        \ NIP\\\",\\\"Value\\\":\\\"3.5g\\\",\\\"Description\\\":\\\"Sugars Quantity\
+        \ Per 100g - Total - NIP\\\",\\\"SortOrder\\\":647},{\\\"Id\\\":910,\\\"Name\\\
+        \":\\\"Sugars Quantity Per 100g - ValueWord - NIP\\\",\\\"Value\\\":\\\"3.5\\\
+        \",\\\"Description\\\":\\\"Sugars Quantity Per 100g - ValueWord - NIP\\\"\
+        ,\\\"SortOrder\\\":648},{\\\"Id\\\":504,\\\"Name\\\":\\\"Sugars Quantity Per\
+        \ Serve - Prefix - NIP\\\",\\\"Value\\\":\\\"\\\",\\\"Description\\\":\\\"\
+        Sugars Quantity Per Serve - Prefix - NIP\\\",\\\"SortOrder\\\":649},{\\\"\
+        Id\\\":911,\\\"Name\\\":\\\"Sugars Quantity Per Serve - SuffixUnits - NIP\\\
+        \",\\\"Value\\\":\\\"g\\\",\\\"Description\\\":\\\"Sugars Quantity Per Serve\
+        \ - SuffixUnits - NIP\\\",\\\"SortOrder\\\":650},{\\\"Id\\\":912,\\\"Name\\\
+        \":\\\"Sugars Quantity Per Serve - Total - NIP\\\",\\\"Value\\\":\\\"8.8g\\\
+        \",\\\"Description\\\":\\\"Sugars Quantity Per Serve - Total - NIP\\\",\\\"\
+        SortOrder\\\":651},{\\\"Id\\\":572,\\\"Name\\\":\\\"Sugars Quantity Per Serve\
+        \ - ValueWord - NIP\\\",\\\"Value\\\":\\\"8.8\\\",\\\"Description\\\":\\\"\
+        Sugars Quantity Per Serve - ValueWord - NIP\\\",\\\"SortOrder\\\":652}]}\"\
+        ,\"storageinstructions\":null,\"usageinstructions\":null,\"brand\":\"nudie\"\
+        ,\"manufacturer\":null,\"countryoforigin\":null,\"productheightmm\":null,\"\
+        productwidthmm\":null,\"productdepthmm\":null,\"wool_productpackaging\":null,\"\
+        recyclableinformation\":null,\"importantinformation\":null,\"allergencontains\"\
+        :null,\"allergenmaybepresent\":null,\"allergystatement\":\"Egg Free\",\"lifestyleanddietarystatement\"\
+        :\"Vegetarian\",\"lifestyleclaim\":null,\"wool_dietaryclaim\":\"Free from\
+        \ artificial flavour. Free from preservatives. No added sugars\",\"boxedcontents\"\
+        :null,\"suitablefor\":null,\"fragrance\":null,\"colour\":null,\"antioxidant\"\
+        :\"False\",\"addedvitaminsandminerals\":\"False\",\"bpafree\":\"False\",\"\
+        sulfatefree\":\"False\",\"parabenfree\":\"False\",\"claims\":null,\"alcoholfree\"\
+        :null,\"anti-dandruff\":null,\"dermatologicallyapproved\":null,\"dermatologistrecommended\"\
+        :null,\"dermatologisttested\":null,\"fragrance-free\":null,\"haircolour\"\
+        :null,\"hairtype\":null,\"hypo-allergenic\":null,\"non-comedogenic\":null,\"\
+        oilfree\":null,\"ophthalmologistapproved\":null,\"ophthalmologisttested\"\
+        :null,\"paba-free\":null,\"skincondition\":null,\"skintype\":null,\"soap-free\"\
+        :null,\"spf\":null,\"sweatresistant\":null,\"timer\":null,\"waterresistant\"\
+        :null,\"phbalanced\":null,\"antiseptic\":\"False\",\"antibacterial\":\"False\"\
+        ,\"activeconstituents\":null,\"contains\":null,\"microwavesafe\":\"False\"\
+        ,\"productimagecount\":\"1\",\"friendlydisclaimer\":null,\"productimages\"\
+        :\"761072.jpg\",\"healthstarrating\":\"0\",\"tgawarnings\":null,\"tgawarning\"\
+        :null},\"TgaAttributes\":{\"Directions\":null,\"ProductWarnings\":null},\"\
+        DetailsImagePaths\":[\"https://cdn0.woolworths.media/content/wowproductimages/large/761072.jpg\"\
+        ],\"NutritionalInformation\":[{\"Name\":\"Energy\",\"Values\":{\"Avg Qty Per\
+        \ Serving\":\"205kJ\",\"Avg Qty Per 100g\":\"82kJ\"},\"ServingSize\":\"250mL\"\
+        ,\"ServingsPerPack\":\"4\"},{\"Name\":\"Protein\",\"Values\":{\"Avg Qty Per\
+        \ Serving\":\"<1g\",\"Avg Qty Per 100g\":\"<1g\"},\"ServingSize\":\"250mL\"\
+        ,\"ServingsPerPack\":\"4\"},{\"Name\":\"Fat, total\",\"Values\":{\"Avg Qty\
+        \ Per Serving\":\"<1g\",\"Avg Qty Per 100g\":\"<1g\"},\"ServingSize\":\"250mL\"\
+        ,\"ServingsPerPack\":\"4\"},{\"Name\":\"\u2013 saturated\",\"Values\":{\"\
+        Avg Qty Per Serving\":\"<1g\",\"Avg Qty Per 100g\":\"<1g\"},\"ServingSize\"\
+        :\"250mL\",\"ServingsPerPack\":\"4\"},{\"Name\":\"Carbohydrate\",\"Values\"\
+        :{\"Avg Qty Per Serving\":\"11.8g\",\"Avg Qty Per 100g\":\"4.7g\"},\"ServingSize\"\
+        :\"250mL\",\"ServingsPerPack\":\"4\"},{\"Name\":\"\u2013 sugars\",\"Values\"\
+        :{\"Avg Qty Per Serving\":\"8.8g\",\"Avg Qty Per 100g\":\"3.5g\"},\"ServingSize\"\
+        :\"250mL\",\"ServingsPerPack\":\"4\"},{\"Name\":\"Sodium\",\"Values\":{\"\
+        Avg Qty Per Serving\":\"63mg\",\"Avg Qty Per 100g\":\"25mg\"},\"ServingSize\"\
+        :\"250mL\",\"ServingsPerPack\":\"4\"}],\"RichRelevancePlacements\":[{\"placement_name\"\
+        :null,\"message\":null,\"Products\":[],\"Items\":[],\"StockcodesForDiscover\"\
+        :[]}],\"IsTobacco\":false,\"CountryOfOriginLabel\":{\"PngImageFile\":\"https://cdn0.woolworths.media/content/countryoforiginlabelling/a09682fe-c769-4163-88cd-b722d38bace5.png\"\
+        ,\"SvgImageFile\":\"https://cdn0.woolworths.media/content/countryoforiginlabelling/a09682fe-c769-4163-88cd-b722d38bace5.svg\"\
+        ,\"AltText\":\"Product of Thailand\",\"CountryOfOrigin\":\"Thailand\",\"IngredientPercentage\"\
+        :\"\",\"Disclaimer\":null}}"
+    headers:
+      Access-Control-Allow-Headers: Content-type
+      Access-Control-Allow-Origin: '*'
+      Access-Control-Expose-Headers: Request-Context
+      Cache-Control: no-cache, no-store, must-revalidate
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Length: '4468'
+      Content-Type: application/json; charset=utf-8
+      Date: Fri, 13 Mar 2020 04:40:59 GMT
+      Expires: '-1'
+      Pragma: no-cache
+      Request-Context: appId=cid-v1:b49612dc-0eb5-452a-a689-7af50f34384a
+      Server-Timing: origin; dur=25
+      Set-Cookie: akaalb_woolworths.com.au=~op=www_woolworths_com_au_ZoneA:PROD-ZoneA|~rv=90~m=PROD-ZoneA:0|~os=43eb3391333cc20efbd7f812851447e6~id=d92a7459e9dac5eed9edca7e270ff051;
+        path=/; Secure; SameSite=None
+      Strict-Transport-Security: max-age=600 ; includeSubDomains
+      Vary: Accept-Encoding
+      X-Content-Type-Options: nosniff
+      X-XSS-Protection: 1; mode=block
+    status:
+      code: 200
+      message: OK
+    url: https://www.woolworths.com.au/apis/ui/product/detail/761072
+version: 1
